@@ -20,9 +20,6 @@ class MonthlyreportVC: UIViewController {
     
     
     
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -114,8 +111,6 @@ class MonthlyreportVC: UIViewController {
         
         
         
-        
-        
     }
     
 //    MARK: - Refresh mothods
@@ -128,7 +123,6 @@ class MonthlyreportVC: UIViewController {
 //    MARK: - Helper methods
     
     
-//    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
     
     func setChartUI() {
         
