@@ -58,6 +58,9 @@
 		CB37F94428C1D6EB00BE003A /* LocationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB37F94228C1D6EB00BE003A /* LocationVC.xib */; };
 		CB5603DD28C7DF940040C651 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5603DB28C7DF940040C651 /* NotificationVC.swift */; };
 		CB5603DE28C7DF940040C651 /* NotificationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB5603DC28C7DF940040C651 /* NotificationVC.xib */; };
+		CBDF337B28D34806002BF05B /* CardVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF337928D34806002BF05B /* CardVCViewController.swift */; };
+		CBDF337C28D34806002BF05B /* CardVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBDF337A28D34806002BF05B /* CardVCViewController.xib */; };
+		CBDF337E28D350C1002BF05B /* CardsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF337D28D350C1002BF05B /* CardsLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +119,9 @@
 		CB37F94228C1D6EB00BE003A /* LocationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationVC.xib; sourceTree = "<group>"; };
 		CB5603DB28C7DF940040C651 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
 		CB5603DC28C7DF940040C651 /* NotificationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationVC.xib; sourceTree = "<group>"; };
+		CBDF337928D34806002BF05B /* CardVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardVCViewController.swift; sourceTree = "<group>"; };
+		CBDF337A28D34806002BF05B /* CardVCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardVCViewController.xib; sourceTree = "<group>"; };
+		CBDF337D28D350C1002BF05B /* CardsLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +170,7 @@
 				CB2E6FCC28CE1CAE00CD3DBF /* Onboarding */,
 				CB2E6FD528CEE03D00CD3DBF /* HomePage */,
 				CB281B6A28D0F05E0074E2C3 /* Monthly_Reports */,
+				CBDF337828D34775002BF05B /* CardDetails */,
 				CB0B50FF28B6B9F5008C9983 /* app */,
 			);
 			path = "Finance-app";
@@ -352,6 +359,17 @@
 			path = Notification;
 			sourceTree = "<group>";
 		};
+		CBDF337828D34775002BF05B /* CardDetails */ = {
+			isa = PBXGroup;
+			children = (
+				CBDF337928D34806002BF05B /* CardVCViewController.swift */,
+				CBDF337A28D34806002BF05B /* CardVCViewController.xib */,
+				CBDF337D28D350C1002BF05B /* CardsLayout.swift */,
+			);
+			name = CardDetails;
+			path = Monthly_Reports;
+			sourceTree = "<group>";
+		};
 		DD56186F96931E750BD39516 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -432,6 +450,7 @@
 				CB1ECA0A28BE7F0A00AE68D4 /* SignUpVC.xib in Resources */,
 				CB2E6FE128CF572300CD3DBF /* HomeTableViewCell.xib in Resources */,
 				CB37F94428C1D6EB00BE003A /* LocationVC.xib in Resources */,
+				CBDF337C28D34806002BF05B /* CardVCViewController.xib in Resources */,
 				CB2E6FD028CE1FC700CD3DBF /* OnBoardingVC.xib in Resources */,
 				CB1ECA0E28BF4EED00AE68D4 /* signup1_facebook@3x.png in Resources */,
 				CB1ECA0328BE7E5400AE68D4 /* LoginView1.xib in Resources */,
@@ -526,11 +545,13 @@
 				CB281B7628D1A2F30074E2C3 /* MonthlyReportChartview.swift in Sources */,
 				CB2E6FDC28CF297500CD3DBF /* HomeCollectionViewCell.swift in Sources */,
 				CB2E6FC628CB5FA700CD3DBF /* PlanVC.swift in Sources */,
+				CBDF337E28D350C1002BF05B /* CardsLayout.swift in Sources */,
 				CB281B7128D113B50074E2C3 /* MonthlyReportCell.swift in Sources */,
 				CB2E6FE328CFBC2C00CD3DBF /* ChartViewMaker.swift in Sources */,
 				CB0B510428B6BA81008C9983 /* BaseView.swift in Sources */,
 				CB1ECA0528BE7E5F00AE68D4 /* LoginView1.swift in Sources */,
 				CB0B510E28B6BC5F008C9983 /* AppColor.swift in Sources */,
+				CBDF337B28D34806002BF05B /* CardVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
