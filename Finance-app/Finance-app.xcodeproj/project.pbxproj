@@ -58,6 +58,8 @@
 		CB37F94428C1D6EB00BE003A /* LocationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB37F94228C1D6EB00BE003A /* LocationVC.xib */; };
 		CB5603DD28C7DF940040C651 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5603DB28C7DF940040C651 /* NotificationVC.swift */; };
 		CB5603DE28C7DF940040C651 /* NotificationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB5603DC28C7DF940040C651 /* NotificationVC.xib */; };
+		CBD6E2CF28D3B938008B2540 /* CardDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD6E2CD28D3B938008B2540 /* CardDetailsCollectionViewCell.swift */; };
+		CBD6E2D028D3B938008B2540 /* CardDetailsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD6E2CE28D3B938008B2540 /* CardDetailsCollectionViewCell.xib */; };
 		CBDF337B28D34806002BF05B /* CardVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF337928D34806002BF05B /* CardVCViewController.swift */; };
 		CBDF337C28D34806002BF05B /* CardVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBDF337A28D34806002BF05B /* CardVCViewController.xib */; };
 		CBDF337E28D350C1002BF05B /* CardsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF337D28D350C1002BF05B /* CardsLayout.swift */; };
@@ -119,6 +121,8 @@
 		CB37F94228C1D6EB00BE003A /* LocationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationVC.xib; sourceTree = "<group>"; };
 		CB5603DB28C7DF940040C651 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
 		CB5603DC28C7DF940040C651 /* NotificationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationVC.xib; sourceTree = "<group>"; };
+		CBD6E2CD28D3B938008B2540 /* CardDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		CBD6E2CE28D3B938008B2540 /* CardDetailsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardDetailsCollectionViewCell.xib; sourceTree = "<group>"; };
 		CBDF337928D34806002BF05B /* CardVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardVCViewController.swift; sourceTree = "<group>"; };
 		CBDF337A28D34806002BF05B /* CardVCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardVCViewController.xib; sourceTree = "<group>"; };
 		CBDF337D28D350C1002BF05B /* CardsLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsLayout.swift; sourceTree = "<group>"; };
@@ -365,6 +369,8 @@
 				CBDF337928D34806002BF05B /* CardVCViewController.swift */,
 				CBDF337A28D34806002BF05B /* CardVCViewController.xib */,
 				CBDF337D28D350C1002BF05B /* CardsLayout.swift */,
+				CBD6E2CD28D3B938008B2540 /* CardDetailsCollectionViewCell.swift */,
+				CBD6E2CE28D3B938008B2540 /* CardDetailsCollectionViewCell.xib */,
 			);
 			name = CardDetails;
 			path = Monthly_Reports;
@@ -452,6 +458,7 @@
 				CB37F94428C1D6EB00BE003A /* LocationVC.xib in Resources */,
 				CBDF337C28D34806002BF05B /* CardVCViewController.xib in Resources */,
 				CB2E6FD028CE1FC700CD3DBF /* OnBoardingVC.xib in Resources */,
+				CBD6E2D028D3B938008B2540 /* CardDetailsCollectionViewCell.xib in Resources */,
 				CB1ECA0E28BF4EED00AE68D4 /* signup1_facebook@3x.png in Resources */,
 				CB1ECA0328BE7E5400AE68D4 /* LoginView1.xib in Resources */,
 				CB0B50F828B6B8D5008C9983 /* LaunchScreen.storyboard in Resources */,
@@ -530,6 +537,7 @@
 				CB0B511028B6BC71008C9983 /* NavController.swift in Sources */,
 				CB0B511228B6BCBD008C9983 /* UIImageView+Extension.swift in Sources */,
 				CB1ECA1428BF9B6200AE68D4 /* PhoneVC.swift in Sources */,
+				CBD6E2CF28D3B938008B2540 /* CardDetailsCollectionViewCell.swift in Sources */,
 				CB37F93E28C095F800BE003A /* OtpVC.swift in Sources */,
 				CB2E6FC128CB5AC700CD3DBF /* PasscodeVC.swift in Sources */,
 				CB1ECA0928BE7F0A00AE68D4 /* SignUpVC.swift in Sources */,
