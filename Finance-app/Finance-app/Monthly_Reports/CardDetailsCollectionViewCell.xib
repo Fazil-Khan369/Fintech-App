@@ -146,6 +146,7 @@
                 <constraint firstItem="ejd-Yt-ONe" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ZFT-o5-e5N"/>
             </constraints>
             <connections>
+                <outlet property="AmountLabel" destination="Y8l-be-ffS" id="7tk-6y-qlN"/>
                 <outlet property="CardNameLAbel" destination="bbP-or-JIg" id="Ude-KT-p1L"/>
                 <outlet property="CardnumberLabel" destination="0tx-x3-Uqu" id="W7E-CX-uP2"/>
                 <outlet property="ExpiredateLabel" destination="bHu-T0-k7z" id="ZLB-ns-7lI"/>
