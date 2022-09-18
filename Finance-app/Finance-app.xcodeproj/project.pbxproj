@@ -35,6 +35,12 @@
 		CB281B7128D113B50074E2C3 /* MonthlyReportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB281B6F28D113B50074E2C3 /* MonthlyReportCell.swift */; };
 		CB281B7228D113B50074E2C3 /* MonthlyReportCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB281B7028D113B50074E2C3 /* MonthlyReportCell.xib */; };
 		CB281B7628D1A2F30074E2C3 /* MonthlyReportChartview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB281B7528D1A2F30074E2C3 /* MonthlyReportChartview.swift */; };
+		CB2C138A28D6010C00E083AE /* TransactionHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2C138828D6010C00E083AE /* TransactionHistoryVC.swift */; };
+		CB2C138B28D6010C00E083AE /* TransactionHistoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB2C138928D6010C00E083AE /* TransactionHistoryVC.xib */; };
+		CB2C138E28D6CC6500E083AE /* TransactionHistoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2C138C28D6CC6500E083AE /* TransactionHistoryCollectionViewCell.swift */; };
+		CB2C138F28D6CC6500E083AE /* TransactionHistoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB2C138D28D6CC6500E083AE /* TransactionHistoryCollectionViewCell.xib */; };
+		CB2C139228D6CE5D00E083AE /* TransactionHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2C139028D6CE5D00E083AE /* TransactionHistoryTableViewCell.swift */; };
+		CB2C139328D6CE5D00E083AE /* TransactionHistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB2C139128D6CE5D00E083AE /* TransactionHistoryTableViewCell.xib */; };
 		CB2E6FC128CB5AC700CD3DBF /* PasscodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2E6FBF28CB5AC700CD3DBF /* PasscodeVC.swift */; };
 		CB2E6FC228CB5AC700CD3DBF /* PasscodeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB2E6FC028CB5AC700CD3DBF /* PasscodeVC.xib */; };
 		CB2E6FC628CB5FA700CD3DBF /* PlanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2E6FC428CB5FA700CD3DBF /* PlanVC.swift */; };
@@ -98,6 +104,12 @@
 		CB281B6F28D113B50074E2C3 /* MonthlyReportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyReportCell.swift; sourceTree = "<group>"; };
 		CB281B7028D113B50074E2C3 /* MonthlyReportCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonthlyReportCell.xib; sourceTree = "<group>"; };
 		CB281B7528D1A2F30074E2C3 /* MonthlyReportChartview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyReportChartview.swift; sourceTree = "<group>"; };
+		CB2C138828D6010C00E083AE /* TransactionHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryVC.swift; sourceTree = "<group>"; };
+		CB2C138928D6010C00E083AE /* TransactionHistoryVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionHistoryVC.xib; sourceTree = "<group>"; };
+		CB2C138C28D6CC6500E083AE /* TransactionHistoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		CB2C138D28D6CC6500E083AE /* TransactionHistoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionHistoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		CB2C139028D6CE5D00E083AE /* TransactionHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		CB2C139128D6CE5D00E083AE /* TransactionHistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionHistoryTableViewCell.xib; sourceTree = "<group>"; };
 		CB2E6FBF28CB5AC700CD3DBF /* PasscodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeVC.swift; sourceTree = "<group>"; };
 		CB2E6FC028CB5AC700CD3DBF /* PasscodeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasscodeVC.xib; sourceTree = "<group>"; };
 		CB2E6FC428CB5FA700CD3DBF /* PlanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanVC.swift; sourceTree = "<group>"; };
@@ -175,6 +187,7 @@
 				CB2E6FD528CEE03D00CD3DBF /* HomePage */,
 				CB281B6A28D0F05E0074E2C3 /* Monthly_Reports */,
 				CBDF337828D34775002BF05B /* CardDetails */,
+				CB2C138728D6003C00E083AE /* TransactionHistory */,
 				CB0B50FF28B6B9F5008C9983 /* app */,
 			);
 			path = "Finance-app";
@@ -280,6 +293,19 @@
 				CB281B7528D1A2F30074E2C3 /* MonthlyReportChartview.swift */,
 			);
 			path = Monthly_Reports;
+			sourceTree = "<group>";
+		};
+		CB2C138728D6003C00E083AE /* TransactionHistory */ = {
+			isa = PBXGroup;
+			children = (
+				CB2C138828D6010C00E083AE /* TransactionHistoryVC.swift */,
+				CB2C138928D6010C00E083AE /* TransactionHistoryVC.xib */,
+				CB2C138C28D6CC6500E083AE /* TransactionHistoryCollectionViewCell.swift */,
+				CB2C138D28D6CC6500E083AE /* TransactionHistoryCollectionViewCell.xib */,
+				CB2C139028D6CE5D00E083AE /* TransactionHistoryTableViewCell.swift */,
+				CB2C139128D6CE5D00E083AE /* TransactionHistoryTableViewCell.xib */,
+			);
+			path = TransactionHistory;
 			sourceTree = "<group>";
 		};
 		CB2E6FBE28CB5A9800CD3DBF /* Passcode */ = {
@@ -456,7 +482,9 @@
 				CB1ECA0A28BE7F0A00AE68D4 /* SignUpVC.xib in Resources */,
 				CB2E6FE128CF572300CD3DBF /* HomeTableViewCell.xib in Resources */,
 				CB37F94428C1D6EB00BE003A /* LocationVC.xib in Resources */,
+				CB2C139328D6CE5D00E083AE /* TransactionHistoryTableViewCell.xib in Resources */,
 				CBDF337C28D34806002BF05B /* CardVCViewController.xib in Resources */,
+				CB2C138B28D6010C00E083AE /* TransactionHistoryVC.xib in Resources */,
 				CB2E6FD028CE1FC700CD3DBF /* OnBoardingVC.xib in Resources */,
 				CBD6E2D028D3B938008B2540 /* CardDetailsCollectionViewCell.xib in Resources */,
 				CB1ECA0E28BF4EED00AE68D4 /* signup1_facebook@3x.png in Resources */,
@@ -467,6 +495,7 @@
 				CB5603DE28C7DF940040C651 /* NotificationVC.xib in Resources */,
 				CB281B7228D113B50074E2C3 /* MonthlyReportCell.xib in Resources */,
 				CB2E6FCB28CD2C3F00CD3DBF /* PlanCell.xib in Resources */,
+				CB2C138F28D6CC6500E083AE /* TransactionHistoryCollectionViewCell.xib in Resources */,
 				CB2E6FD428CE36DA00CD3DBF /* OnBoardingCell.xib in Resources */,
 				CB2E6FC228CB5AC700CD3DBF /* PasscodeVC.xib in Resources */,
 				CB0B50F528B6B8D5008C9983 /* Assets.xcassets in Resources */,
@@ -532,8 +561,11 @@
 			files = (
 				CB2E6FCA28CD2C3F00CD3DBF /* PlanCell.swift in Sources */,
 				CB0B511428B6BCD6008C9983 /* UITextField+Extension.swift in Sources */,
+				CB2C139228D6CE5D00E083AE /* TransactionHistoryTableViewCell.swift in Sources */,
 				CB5603DD28C7DF940040C651 /* NotificationVC.swift in Sources */,
 				CB2E6FCF28CE1FC700CD3DBF /* OnBoardingVC.swift in Sources */,
+				CB2C138E28D6CC6500E083AE /* TransactionHistoryCollectionViewCell.swift in Sources */,
+				CB2C138A28D6010C00E083AE /* TransactionHistoryVC.swift in Sources */,
 				CB0B511028B6BC71008C9983 /* NavController.swift in Sources */,
 				CB0B511228B6BCBD008C9983 /* UIImageView+Extension.swift in Sources */,
 				CB1ECA1428BF9B6200AE68D4 /* PhoneVC.swift in Sources */,
