@@ -12,6 +12,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PaymentLimitVC" customModule="Finance_app" customModuleProvider="target">
             <connections>
+                <outlet property="CashWithdrawalsAmount" destination="wL6-PA-qaS" id="GtB-Am-jBZ"/>
+                <outlet property="CashWithdrawalsAmountSlider" destination="Izf-H8-OqA" id="fJL-Ln-Dd6"/>
+                <outlet property="OnlinepaymentLabel" destination="unX-hc-wAd" id="Lai-ky-Wn2"/>
+                <outlet property="OnlinepaymentSlider" destination="qWW-I7-fEJ" id="e9W-7S-j8s"/>
+                <outlet property="PaymentInStoreAmountSlider" destination="b7N-66-9aX" id="DC4-aT-cmE"/>
+                <outlet property="PaymentinStoreAmount" destination="5Ke-cH-Rv1" id="YQl-TC-UHj"/>
                 <outlet property="view" destination="CwE-lg-9KD" id="mzL-nY-ff1"/>
             </connections>
         </placeholder>
@@ -218,6 +224,9 @@
                                     <integer key="value" value="10"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="actionUpdateLimits:" destination="-1" eventType="touchUpInside" id="b8r-e5-NtY"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
