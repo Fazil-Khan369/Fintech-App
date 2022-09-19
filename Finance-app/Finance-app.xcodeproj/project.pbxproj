@@ -30,6 +30,8 @@
 		CB1ECA1428BF9B6200AE68D4 /* PhoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1ECA1228BF9B6200AE68D4 /* PhoneVC.swift */; };
 		CB1ECA1528BF9B6200AE68D4 /* PhoneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1ECA1328BF9B6200AE68D4 /* PhoneVC.xib */; };
 		CB1ECA1B28BF9BF600AE68D4 /* phone_countyCode.json in Resources */ = {isa = PBXBuildFile; fileRef = CB1ECA1A28BF9BF600AE68D4 /* phone_countyCode.json */; };
+		CB23B2F428D830C600766B8A /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB23B2F228D830C600766B8A /* Notification.swift */; };
+		CB23B2F528D830C600766B8A /* Notification.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB23B2F328D830C600766B8A /* Notification.xib */; };
 		CB281B6D28D0F0C50074E2C3 /* MonthlyreportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB281B6B28D0F0C50074E2C3 /* MonthlyreportVC.swift */; };
 		CB281B6E28D0F0C50074E2C3 /* MonthlyreportVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB281B6C28D0F0C50074E2C3 /* MonthlyreportVC.xib */; };
 		CB281B7128D113B50074E2C3 /* MonthlyReportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB281B6F28D113B50074E2C3 /* MonthlyReportCell.swift */; };
@@ -99,6 +101,8 @@
 		CB1ECA1228BF9B6200AE68D4 /* PhoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneVC.swift; sourceTree = "<group>"; };
 		CB1ECA1328BF9B6200AE68D4 /* PhoneVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhoneVC.xib; sourceTree = "<group>"; };
 		CB1ECA1A28BF9BF600AE68D4 /* phone_countyCode.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = phone_countyCode.json; sourceTree = "<group>"; };
+		CB23B2F228D830C600766B8A /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		CB23B2F328D830C600766B8A /* Notification.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Notification.xib; sourceTree = "<group>"; };
 		CB281B6B28D0F0C50074E2C3 /* MonthlyreportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyreportVC.swift; sourceTree = "<group>"; };
 		CB281B6C28D0F0C50074E2C3 /* MonthlyreportVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonthlyreportVC.xib; sourceTree = "<group>"; };
 		CB281B6F28D113B50074E2C3 /* MonthlyReportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyReportCell.swift; sourceTree = "<group>"; };
@@ -188,6 +192,7 @@
 				CB281B6A28D0F05E0074E2C3 /* Monthly_Reports */,
 				CBDF337828D34775002BF05B /* CardDetails */,
 				CB2C138728D6003C00E083AE /* TransactionHistory */,
+				CB23B2ED28D8222900766B8A /* Notification */,
 				CB0B50FF28B6B9F5008C9983 /* app */,
 			);
 			path = "Finance-app";
@@ -281,6 +286,15 @@
 				CB1ECA1A28BF9BF600AE68D4 /* phone_countyCode.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		CB23B2ED28D8222900766B8A /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				CB23B2F228D830C600766B8A /* Notification.swift */,
+				CB23B2F328D830C600766B8A /* Notification.xib */,
+			);
+			name = Notification;
 			sourceTree = "<group>";
 		};
 		CB281B6A28D0F05E0074E2C3 /* Monthly_Reports */ = {
@@ -493,6 +507,7 @@
 				CB1ECA1528BF9B6200AE68D4 /* PhoneVC.xib in Resources */,
 				CB1ECA0F28BF4EED00AE68D4 /* signup1_facebook@2x.png in Resources */,
 				CB5603DE28C7DF940040C651 /* NotificationVC.xib in Resources */,
+				CB23B2F528D830C600766B8A /* Notification.xib in Resources */,
 				CB281B7228D113B50074E2C3 /* MonthlyReportCell.xib in Resources */,
 				CB2E6FCB28CD2C3F00CD3DBF /* PlanCell.xib in Resources */,
 				CB2C138F28D6CC6500E083AE /* TransactionHistoryCollectionViewCell.xib in Resources */,
@@ -589,6 +604,7 @@
 				CB281B7128D113B50074E2C3 /* MonthlyReportCell.swift in Sources */,
 				CB2E6FE328CFBC2C00CD3DBF /* ChartViewMaker.swift in Sources */,
 				CB0B510428B6BA81008C9983 /* BaseView.swift in Sources */,
+				CB23B2F428D830C600766B8A /* Notification.swift in Sources */,
 				CB1ECA0528BE7E5F00AE68D4 /* LoginView1.swift in Sources */,
 				CB0B510E28B6BC5F008C9983 /* AppColor.swift in Sources */,
 				CBDF337B28D34806002BF05B /* CardVCViewController.swift in Sources */,
