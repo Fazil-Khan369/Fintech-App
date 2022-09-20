@@ -62,6 +62,8 @@
 		CB2E6FE028CF572300CD3DBF /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2E6FDE28CF572300CD3DBF /* HomeTableViewCell.swift */; };
 		CB2E6FE128CF572300CD3DBF /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB2E6FDF28CF572300CD3DBF /* HomeTableViewCell.xib */; };
 		CB2E6FE328CFBC2C00CD3DBF /* ChartViewMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2E6FE228CFBC2C00CD3DBF /* ChartViewMaker.swift */; };
+		CB3056C228D9EDC000C2697D /* TransfermoneyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3056C028D9EDC000C2697D /* TransfermoneyVC.swift */; };
+		CB3056C328D9EDC000C2697D /* TransfermoneyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB3056C128D9EDC000C2697D /* TransfermoneyVC.xib */; };
 		CB37F93E28C095F800BE003A /* OtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB37F93C28C095F800BE003A /* OtpVC.swift */; };
 		CB37F93F28C095F800BE003A /* OtpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB37F93D28C095F800BE003A /* OtpVC.xib */; };
 		CB37F94328C1D6EB00BE003A /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB37F94128C1D6EB00BE003A /* LocationVC.swift */; };
@@ -141,6 +143,8 @@
 		CB2E6FDE28CF572300CD3DBF /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		CB2E6FDF28CF572300CD3DBF /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 		CB2E6FE228CFBC2C00CD3DBF /* ChartViewMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewMaker.swift; sourceTree = "<group>"; };
+		CB3056C028D9EDC000C2697D /* TransfermoneyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransfermoneyVC.swift; sourceTree = "<group>"; };
+		CB3056C128D9EDC000C2697D /* TransfermoneyVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransfermoneyVC.xib; sourceTree = "<group>"; };
 		CB37F93C28C095F800BE003A /* OtpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVC.swift; sourceTree = "<group>"; };
 		CB37F93D28C095F800BE003A /* OtpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtpVC.xib; sourceTree = "<group>"; };
 		CB37F94128C1D6EB00BE003A /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
@@ -212,6 +216,7 @@
 				CB23B2F728D8370000766B8A /* Payment_Limit */,
 				CBF4354028D8AFC000993A17 /* Settings */,
 				CBF4354528D99B7300993A17 /* Transactionview2 */,
+				CB3056BF28D9ED9800C2697D /* Transfer_money */,
 				CB0B50FF28B6B9F5008C9983 /* app */,
 			);
 			path = "Finance-app";
@@ -397,6 +402,15 @@
 			path = HomePage;
 			sourceTree = "<group>";
 		};
+		CB3056BF28D9ED9800C2697D /* Transfer_money */ = {
+			isa = PBXGroup;
+			children = (
+				CB3056C028D9EDC000C2697D /* TransfermoneyVC.swift */,
+				CB3056C128D9EDC000C2697D /* TransfermoneyVC.xib */,
+			);
+			name = Transfer_money;
+			sourceTree = "<group>";
+		};
 		CB37F93B28C0958A00BE003A /* OTPcode */ = {
 			isa = PBXGroup;
 			children = (
@@ -567,6 +581,7 @@
 				CB2E6FC228CB5AC700CD3DBF /* PasscodeVC.xib in Resources */,
 				CB0B50F528B6B8D5008C9983 /* Assets.xcassets in Resources */,
 				CB281B6E28D0F0C50074E2C3 /* MonthlyreportVC.xib in Resources */,
+				CB3056C328D9EDC000C2697D /* TransfermoneyVC.xib in Resources */,
 				CB37F93F28C095F800BE003A /* OtpVC.xib in Resources */,
 				CB0B50F328B6B8D3008C9983 /* Main.storyboard in Resources */,
 				CB2E6FDD28CF297500CD3DBF /* HomeCollectionViewCell.xib in Resources */,
@@ -628,6 +643,7 @@
 			files = (
 				CB2E6FCA28CD2C3F00CD3DBF /* PlanCell.swift in Sources */,
 				CB0B511428B6BCD6008C9983 /* UITextField+Extension.swift in Sources */,
+				CB3056C228D9EDC000C2697D /* TransfermoneyVC.swift in Sources */,
 				CB2C139228D6CE5D00E083AE /* TransactionHistoryTableViewCell.swift in Sources */,
 				CB5603DD28C7DF940040C651 /* NotificationVC.swift in Sources */,
 				CB2E6FCF28CE1FC700CD3DBF /* OnBoardingVC.swift in Sources */,
