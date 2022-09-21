@@ -83,6 +83,8 @@
 		CBF4354928D99BBA00993A17 /* Transaction2VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBF4354728D99BBA00993A17 /* Transaction2VC.xib */; };
 		CBF4354C28D9AC5400993A17 /* Transaction2Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF4354A28D9AC5400993A17 /* Transaction2Cell.swift */; };
 		CBF4354D28D9AC5400993A17 /* Transaction2Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBF4354B28D9AC5400993A17 /* Transaction2Cell.xib */; };
+		CBFA2EDC28DB75490001CB8B /* ReportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA2EDA28DB75490001CB8B /* ReportVC.swift */; };
+		CBFA2EDD28DB75490001CB8B /* ReportVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBFA2EDB28DB75490001CB8B /* ReportVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -166,6 +168,8 @@
 		CBF4354728D99BBA00993A17 /* Transaction2VC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Transaction2VC.xib; sourceTree = "<group>"; };
 		CBF4354A28D9AC5400993A17 /* Transaction2Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction2Cell.swift; sourceTree = "<group>"; };
 		CBF4354B28D9AC5400993A17 /* Transaction2Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Transaction2Cell.xib; sourceTree = "<group>"; };
+		CBFA2EDA28DB75490001CB8B /* ReportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportVC.swift; sourceTree = "<group>"; };
+		CBFA2EDB28DB75490001CB8B /* ReportVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReportVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +226,7 @@
 				CBF4354528D99B7300993A17 /* Transactionview2 */,
 				CB3056C428DA4FBD00C2697D /* ExchangeView */,
 				CB3056BF28D9ED9800C2697D /* Transfer_money */,
+				CBFA2ED928DB75140001CB8B /* Report */,
 				CB0B50FF28B6B9F5008C9983 /* app */,
 			);
 			path = "Finance-app";
@@ -492,6 +497,15 @@
 			name = Transactionview2;
 			sourceTree = "<group>";
 		};
+		CBFA2ED928DB75140001CB8B /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				CBFA2EDA28DB75490001CB8B /* ReportVC.swift */,
+				CBFA2EDB28DB75490001CB8B /* ReportVC.xib */,
+			);
+			name = Report;
+			sourceTree = "<group>";
+		};
 		DD56186F96931E750BD39516 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -591,6 +605,7 @@
 				CB2E6FCB28CD2C3F00CD3DBF /* PlanCell.xib in Resources */,
 				CBF4354D28D9AC5400993A17 /* Transaction2Cell.xib in Resources */,
 				CB2C138F28D6CC6500E083AE /* TransactionHistoryCollectionViewCell.xib in Resources */,
+				CBFA2EDD28DB75490001CB8B /* ReportVC.xib in Resources */,
 				CBF4354928D99BBA00993A17 /* Transaction2VC.xib in Resources */,
 				CB2E6FD428CE36DA00CD3DBF /* OnBoardingCell.xib in Resources */,
 				CB2E6FC228CB5AC700CD3DBF /* PasscodeVC.xib in Resources */,
@@ -663,6 +678,7 @@
 				CB5603DD28C7DF940040C651 /* NotificationVC.swift in Sources */,
 				CB2E6FCF28CE1FC700CD3DBF /* OnBoardingVC.swift in Sources */,
 				CB2C138E28D6CC6500E083AE /* TransactionHistoryCollectionViewCell.swift in Sources */,
+				CBFA2EDC28DB75490001CB8B /* ReportVC.swift in Sources */,
 				CB2C138A28D6010C00E083AE /* TransactionHistoryVC.swift in Sources */,
 				CB0B511028B6BC71008C9983 /* NavController.swift in Sources */,
 				CB0B511228B6BCBD008C9983 /* UIImageView+Extension.swift in Sources */,
