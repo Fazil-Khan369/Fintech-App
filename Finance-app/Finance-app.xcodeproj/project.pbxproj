@@ -64,6 +64,8 @@
 		CB2E6FE328CFBC2C00CD3DBF /* ChartViewMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2E6FE228CFBC2C00CD3DBF /* ChartViewMaker.swift */; };
 		CB3056C228D9EDC000C2697D /* TransfermoneyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3056C028D9EDC000C2697D /* TransfermoneyVC.swift */; };
 		CB3056C328D9EDC000C2697D /* TransfermoneyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB3056C128D9EDC000C2697D /* TransfermoneyVC.xib */; };
+		CB3056C828DA4FFE00C2697D /* ExchangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3056C628DA4FFE00C2697D /* ExchangeVC.swift */; };
+		CB3056C928DA4FFE00C2697D /* ExchangeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB3056C728DA4FFE00C2697D /* ExchangeVC.xib */; };
 		CB37F93E28C095F800BE003A /* OtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB37F93C28C095F800BE003A /* OtpVC.swift */; };
 		CB37F93F28C095F800BE003A /* OtpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB37F93D28C095F800BE003A /* OtpVC.xib */; };
 		CB37F94328C1D6EB00BE003A /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB37F94128C1D6EB00BE003A /* LocationVC.swift */; };
@@ -145,6 +147,8 @@
 		CB2E6FE228CFBC2C00CD3DBF /* ChartViewMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewMaker.swift; sourceTree = "<group>"; };
 		CB3056C028D9EDC000C2697D /* TransfermoneyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransfermoneyVC.swift; sourceTree = "<group>"; };
 		CB3056C128D9EDC000C2697D /* TransfermoneyVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransfermoneyVC.xib; sourceTree = "<group>"; };
+		CB3056C628DA4FFE00C2697D /* ExchangeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeVC.swift; sourceTree = "<group>"; };
+		CB3056C728DA4FFE00C2697D /* ExchangeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExchangeVC.xib; sourceTree = "<group>"; };
 		CB37F93C28C095F800BE003A /* OtpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVC.swift; sourceTree = "<group>"; };
 		CB37F93D28C095F800BE003A /* OtpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtpVC.xib; sourceTree = "<group>"; };
 		CB37F94128C1D6EB00BE003A /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
@@ -216,6 +220,7 @@
 				CB23B2F728D8370000766B8A /* Payment_Limit */,
 				CBF4354028D8AFC000993A17 /* Settings */,
 				CBF4354528D99B7300993A17 /* Transactionview2 */,
+				CB3056C428DA4FBD00C2697D /* ExchangeView */,
 				CB3056BF28D9ED9800C2697D /* Transfer_money */,
 				CB0B50FF28B6B9F5008C9983 /* app */,
 			);
@@ -411,6 +416,15 @@
 			name = Transfer_money;
 			sourceTree = "<group>";
 		};
+		CB3056C428DA4FBD00C2697D /* ExchangeView */ = {
+			isa = PBXGroup;
+			children = (
+				CB3056C628DA4FFE00C2697D /* ExchangeVC.swift */,
+				CB3056C728DA4FFE00C2697D /* ExchangeVC.xib */,
+			);
+			name = ExchangeView;
+			sourceTree = "<group>";
+		};
 		CB37F93B28C0958A00BE003A /* OTPcode */ = {
 			isa = PBXGroup;
 			children = (
@@ -568,6 +582,7 @@
 				CBF4354428D8AFF300993A17 /* SettingsVC.xib in Resources */,
 				CB0B50F828B6B8D5008C9983 /* LaunchScreen.storyboard in Resources */,
 				CB1ECA1528BF9B6200AE68D4 /* PhoneVC.xib in Resources */,
+				CB3056C928DA4FFE00C2697D /* ExchangeVC.xib in Resources */,
 				CB1ECA0F28BF4EED00AE68D4 /* signup1_facebook@2x.png in Resources */,
 				CB5603DE28C7DF940040C651 /* NotificationVC.xib in Resources */,
 				CB23B2F528D830C600766B8A /* Notification.xib in Resources */,
@@ -664,6 +679,7 @@
 				CB0B50EC28B6B8D3008C9983 /* AppDelegate.swift in Sources */,
 				CB0B511628B6BCEB008C9983 /* UIView+Extenion.swift in Sources */,
 				CB2E6FD828CEE0C900CD3DBF /* HomeVC.swift in Sources */,
+				CB3056C828DA4FFE00C2697D /* ExchangeVC.swift in Sources */,
 				CB0B50EE28B6B8D3008C9983 /* SceneDelegate.swift in Sources */,
 				CB2E6FE028CF572300CD3DBF /* HomeTableViewCell.swift in Sources */,
 				CB281B7628D1A2F30074E2C3 /* MonthlyReportChartview.swift in Sources */,
