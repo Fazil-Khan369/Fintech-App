@@ -21,6 +21,10 @@
 		CB0B511228B6BCBD008C9983 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0B511128B6BCBD008C9983 /* UIImageView+Extension.swift */; };
 		CB0B511428B6BCD6008C9983 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0B511328B6BCD6008C9983 /* UITextField+Extension.swift */; };
 		CB0B511628B6BCEB008C9983 /* UIView+Extenion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0B511528B6BCEB008C9983 /* UIView+Extenion.swift */; };
+		CB19DBD928DEE62A00392E73 /* AccountTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB19DBD728DEE62A00392E73 /* AccountTableViewCell1.swift */; };
+		CB19DBDA28DEE62A00392E73 /* AccountTableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB19DBD828DEE62A00392E73 /* AccountTableViewCell1.xib */; };
+		CB19DBDD28DEE82600392E73 /* AccountTableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB19DBDB28DEE82600392E73 /* AccountTableViewCell2.swift */; };
+		CB19DBDE28DEE82600392E73 /* AccountTableViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB19DBDC28DEE82600392E73 /* AccountTableViewCell2.xib */; };
 		CB1ECA0328BE7E5400AE68D4 /* LoginView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1ECA0228BE7E5400AE68D4 /* LoginView1.xib */; };
 		CB1ECA0528BE7E5F00AE68D4 /* LoginView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1ECA0428BE7E5F00AE68D4 /* LoginView1.swift */; };
 		CB1ECA0928BE7F0A00AE68D4 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1ECA0728BE7F0A00AE68D4 /* SignUpVC.swift */; };
@@ -72,6 +76,8 @@
 		CB37F94428C1D6EB00BE003A /* LocationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB37F94228C1D6EB00BE003A /* LocationVC.xib */; };
 		CB5603DD28C7DF940040C651 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5603DB28C7DF940040C651 /* NotificationVC.swift */; };
 		CB5603DE28C7DF940040C651 /* NotificationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB5603DC28C7DF940040C651 /* NotificationVC.xib */; };
+		CBA4CB8E28DC4F89005E289F /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA4CB8C28DC4F89005E289F /* AccountVC.swift */; };
+		CBA4CB8F28DC4F89005E289F /* AccountVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA4CB8D28DC4F89005E289F /* AccountVC.xib */; };
 		CBD6E2CF28D3B938008B2540 /* CardDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD6E2CD28D3B938008B2540 /* CardDetailsCollectionViewCell.swift */; };
 		CBD6E2D028D3B938008B2540 /* CardDetailsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD6E2CE28D3B938008B2540 /* CardDetailsCollectionViewCell.xib */; };
 		CBDF337B28D34806002BF05B /* CardVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF337928D34806002BF05B /* CardVCViewController.swift */; };
@@ -110,6 +116,10 @@
 		CB0B511128B6BCBD008C9983 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		CB0B511328B6BCD6008C9983 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		CB0B511528B6BCEB008C9983 /* UIView+Extenion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extenion.swift"; sourceTree = "<group>"; };
+		CB19DBD728DEE62A00392E73 /* AccountTableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell1.swift; sourceTree = "<group>"; };
+		CB19DBD828DEE62A00392E73 /* AccountTableViewCell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountTableViewCell1.xib; sourceTree = "<group>"; };
+		CB19DBDB28DEE82600392E73 /* AccountTableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell2.swift; sourceTree = "<group>"; };
+		CB19DBDC28DEE82600392E73 /* AccountTableViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountTableViewCell2.xib; sourceTree = "<group>"; };
 		CB1ECA0228BE7E5400AE68D4 /* LoginView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginView1.xib; path = "Finance-app/Login/LoginView1.xib"; sourceTree = SOURCE_ROOT; };
 		CB1ECA0428BE7E5F00AE68D4 /* LoginView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView1.swift; path = "Finance-app/Login/LoginView1.swift"; sourceTree = SOURCE_ROOT; };
 		CB1ECA0728BE7F0A00AE68D4 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
@@ -161,6 +171,8 @@
 		CB37F94228C1D6EB00BE003A /* LocationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationVC.xib; sourceTree = "<group>"; };
 		CB5603DB28C7DF940040C651 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
 		CB5603DC28C7DF940040C651 /* NotificationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationVC.xib; sourceTree = "<group>"; };
+		CBA4CB8C28DC4F89005E289F /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
+		CBA4CB8D28DC4F89005E289F /* AccountVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountVC.xib; sourceTree = "<group>"; };
 		CBD6E2CD28D3B938008B2540 /* CardDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
 		CBD6E2CE28D3B938008B2540 /* CardDetailsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardDetailsCollectionViewCell.xib; sourceTree = "<group>"; };
 		CBDF337928D34806002BF05B /* CardVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardVCViewController.swift; sourceTree = "<group>"; };
@@ -232,8 +244,9 @@
 				CB23B2F728D8370000766B8A /* Payment_Limit */,
 				CBF4354028D8AFC000993A17 /* Settings */,
 				CBF4354528D99B7300993A17 /* Transactionview2 */,
-				CB3056C428DA4FBD00C2697D /* ExchangeView */,
 				CB3056BF28D9ED9800C2697D /* Transfer_money */,
+				CBA4CB8B28DC4E6F005E289F /* Accounts */,
+				CB3056C428DA4FBD00C2697D /* ExchangeView */,
 				CBFA2ED928DB75140001CB8B /* Report */,
 				CB0B50FF28B6B9F5008C9983 /* app */,
 			);
@@ -472,6 +485,19 @@
 			path = Notification;
 			sourceTree = "<group>";
 		};
+		CBA4CB8B28DC4E6F005E289F /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				CBA4CB8C28DC4F89005E289F /* AccountVC.swift */,
+				CBA4CB8D28DC4F89005E289F /* AccountVC.xib */,
+				CB19DBD728DEE62A00392E73 /* AccountTableViewCell1.swift */,
+				CB19DBD828DEE62A00392E73 /* AccountTableViewCell1.xib */,
+				CB19DBDB28DEE82600392E73 /* AccountTableViewCell2.swift */,
+				CB19DBDC28DEE82600392E73 /* AccountTableViewCell2.xib */,
+			);
+			name = Accounts;
+			sourceTree = "<group>";
+		};
 		CBDF337828D34775002BF05B /* CardDetails */ = {
 			isa = PBXGroup;
 			children = (
@@ -617,17 +643,20 @@
 				CB281B7228D113B50074E2C3 /* MonthlyReportCell.xib in Resources */,
 				CB2E6FCB28CD2C3F00CD3DBF /* PlanCell.xib in Resources */,
 				CBF4354D28D9AC5400993A17 /* Transaction2Cell.xib in Resources */,
+				CBA4CB8F28DC4F89005E289F /* AccountVC.xib in Resources */,
 				CB2C138F28D6CC6500E083AE /* TransactionHistoryCollectionViewCell.xib in Resources */,
 				CBFA2EDD28DB75490001CB8B /* ReportVC.xib in Resources */,
 				CBF4354928D99BBA00993A17 /* Transaction2VC.xib in Resources */,
 				CB2E6FD428CE36DA00CD3DBF /* OnBoardingCell.xib in Resources */,
 				CB2E6FC228CB5AC700CD3DBF /* PasscodeVC.xib in Resources */,
+				CB19DBDE28DEE82600392E73 /* AccountTableViewCell2.xib in Resources */,
 				CB0B50F528B6B8D5008C9983 /* Assets.xcassets in Resources */,
 				CB281B6E28D0F0C50074E2C3 /* MonthlyreportVC.xib in Resources */,
 				CB3056C328D9EDC000C2697D /* TransfermoneyVC.xib in Resources */,
 				CB37F93F28C095F800BE003A /* OtpVC.xib in Resources */,
 				CB0B50F328B6B8D3008C9983 /* Main.storyboard in Resources */,
 				CB2E6FDD28CF297500CD3DBF /* HomeCollectionViewCell.xib in Resources */,
+				CB19DBDA28DEE62A00392E73 /* AccountTableViewCell1.xib in Resources */,
 				CB0B510528B6BA81008C9983 /* BaseView.xib in Resources */,
 				CB2E6FD928CEE0C900CD3DBF /* HomeVC.xib in Resources */,
 				CB1ECA1B28BF9BF600AE68D4 /* phone_countyCode.json in Resources */,
@@ -684,6 +713,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB19DBDD28DEE82600392E73 /* AccountTableViewCell2.swift in Sources */,
 				CB2E6FCA28CD2C3F00CD3DBF /* PlanCell.swift in Sources */,
 				CB0B511428B6BCD6008C9983 /* UITextField+Extension.swift in Sources */,
 				CB3056C228D9EDC000C2697D /* TransfermoneyVC.swift in Sources */,
@@ -710,10 +740,12 @@
 				CB0B50EC28B6B8D3008C9983 /* AppDelegate.swift in Sources */,
 				CB0B511628B6BCEB008C9983 /* UIView+Extenion.swift in Sources */,
 				CB2E6FD828CEE0C900CD3DBF /* HomeVC.swift in Sources */,
+				CBA4CB8E28DC4F89005E289F /* AccountVC.swift in Sources */,
 				CB3056C828DA4FFE00C2697D /* ExchangeVC.swift in Sources */,
 				CB0B50EE28B6B8D3008C9983 /* SceneDelegate.swift in Sources */,
 				CB2E6FE028CF572300CD3DBF /* HomeTableViewCell.swift in Sources */,
 				CB281B7628D1A2F30074E2C3 /* MonthlyReportChartview.swift in Sources */,
+				CB19DBD928DEE62A00392E73 /* AccountTableViewCell1.swift in Sources */,
 				CB2E6FDC28CF297500CD3DBF /* HomeCollectionViewCell.swift in Sources */,
 				CB2E6FC628CB5FA700CD3DBF /* PlanVC.swift in Sources */,
 				CBDF337E28D350C1002BF05B /* CardsLayout.swift in Sources */,
