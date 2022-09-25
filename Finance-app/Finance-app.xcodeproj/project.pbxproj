@@ -31,6 +31,10 @@
 		CB19DBEC28DF925A00392E73 /* CoinRateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB19DBEA28DF925A00392E73 /* CoinRateCollectionViewCell.xib */; };
 		CB19DBEF28DF927100392E73 /* CoinRateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB19DBED28DF927100392E73 /* CoinRateTableViewCell.swift */; };
 		CB19DBF028DF927100392E73 /* CoinRateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB19DBEE28DF927100392E73 /* CoinRateTableViewCell.xib */; };
+		CB19DBF428E0900300392E73 /* CoinsMarketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB19DBF228E0900300392E73 /* CoinsMarketVC.swift */; };
+		CB19DBF528E0900300392E73 /* CoinsMarketVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB19DBF328E0900300392E73 /* CoinsMarketVC.xib */; };
+		CB19DBF828E0B0D100392E73 /* CoinsMarketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB19DBF628E0B0D100392E73 /* CoinsMarketCell.swift */; };
+		CB19DBF928E0B0D100392E73 /* CoinsMarketCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB19DBF728E0B0D100392E73 /* CoinsMarketCell.xib */; };
 		CB1ECA0328BE7E5400AE68D4 /* LoginView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1ECA0228BE7E5400AE68D4 /* LoginView1.xib */; };
 		CB1ECA0528BE7E5F00AE68D4 /* LoginView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1ECA0428BE7E5F00AE68D4 /* LoginView1.swift */; };
 		CB1ECA0928BE7F0A00AE68D4 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1ECA0728BE7F0A00AE68D4 /* SignUpVC.swift */; };
@@ -132,6 +136,10 @@
 		CB19DBEA28DF925A00392E73 /* CoinRateCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinRateCollectionViewCell.xib; sourceTree = "<group>"; };
 		CB19DBED28DF927100392E73 /* CoinRateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRateTableViewCell.swift; sourceTree = "<group>"; };
 		CB19DBEE28DF927100392E73 /* CoinRateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinRateTableViewCell.xib; sourceTree = "<group>"; };
+		CB19DBF228E0900300392E73 /* CoinsMarketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsMarketVC.swift; sourceTree = "<group>"; };
+		CB19DBF328E0900300392E73 /* CoinsMarketVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinsMarketVC.xib; sourceTree = "<group>"; };
+		CB19DBF628E0B0D100392E73 /* CoinsMarketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsMarketCell.swift; sourceTree = "<group>"; };
+		CB19DBF728E0B0D100392E73 /* CoinsMarketCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinsMarketCell.xib; sourceTree = "<group>"; };
 		CB1ECA0228BE7E5400AE68D4 /* LoginView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginView1.xib; path = "Finance-app/Login/LoginView1.xib"; sourceTree = SOURCE_ROOT; };
 		CB1ECA0428BE7E5F00AE68D4 /* LoginView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView1.swift; path = "Finance-app/Login/LoginView1.swift"; sourceTree = SOURCE_ROOT; };
 		CB1ECA0728BE7F0A00AE68D4 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
@@ -261,6 +269,7 @@
 				CB19DBE428DF5C0900392E73 /* CoinsRateView */,
 				CB3056C428DA4FBD00C2697D /* ExchangeView */,
 				CBFA2ED928DB75140001CB8B /* Report */,
+				CB19DBF128E08FDA00392E73 /* CoinsMarket */,
 				CB0B50FF28B6B9F5008C9983 /* app */,
 			);
 			path = "Finance-app";
@@ -313,6 +322,17 @@
 				CB19DBEE28DF927100392E73 /* CoinRateTableViewCell.xib */,
 			);
 			name = CoinsRateView;
+			sourceTree = "<group>";
+		};
+		CB19DBF128E08FDA00392E73 /* CoinsMarket */ = {
+			isa = PBXGroup;
+			children = (
+				CB19DBF228E0900300392E73 /* CoinsMarketVC.swift */,
+				CB19DBF328E0900300392E73 /* CoinsMarketVC.xib */,
+				CB19DBF628E0B0D100392E73 /* CoinsMarketCell.swift */,
+				CB19DBF728E0B0D100392E73 /* CoinsMarketCell.xib */,
+			);
+			name = CoinsMarket;
 			sourceTree = "<group>";
 		};
 		CB1ECA0128BE7DE200AE68D4 /* SignUpView */ = {
@@ -652,6 +672,7 @@
 				CB37F94428C1D6EB00BE003A /* LocationVC.xib in Resources */,
 				CBFA2EE128DB9BC10001CB8B /* ReportTableViewCell.xib in Resources */,
 				CB2C139328D6CE5D00E083AE /* TransactionHistoryTableViewCell.xib in Resources */,
+				CB19DBF928E0B0D100392E73 /* CoinsMarketCell.xib in Resources */,
 				CBDF337C28D34806002BF05B /* CardVCViewController.xib in Resources */,
 				CB2C138B28D6010C00E083AE /* TransactionHistoryVC.xib in Resources */,
 				CB2E6FD028CE1FC700CD3DBF /* OnBoardingVC.xib in Resources */,
@@ -662,6 +683,7 @@
 				CBF4354428D8AFF300993A17 /* SettingsVC.xib in Resources */,
 				CB19DBEC28DF925A00392E73 /* CoinRateCollectionViewCell.xib in Resources */,
 				CB0B50F828B6B8D5008C9983 /* LaunchScreen.storyboard in Resources */,
+				CB19DBF528E0900300392E73 /* CoinsMarketVC.xib in Resources */,
 				CB1ECA1528BF9B6200AE68D4 /* PhoneVC.xib in Resources */,
 				CB3056C928DA4FFE00C2697D /* ExchangeVC.xib in Resources */,
 				CB19DBF028DF927100392E73 /* CoinRateTableViewCell.xib in Resources */,
@@ -742,6 +764,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB19DBF828E0B0D100392E73 /* CoinsMarketCell.swift in Sources */,
 				CB19DBDD28DEE82600392E73 /* AccountTableViewCell2.swift in Sources */,
 				CB2E6FCA28CD2C3F00CD3DBF /* PlanCell.swift in Sources */,
 				CB19DBEF28DF927100392E73 /* CoinRateTableViewCell.swift in Sources */,
@@ -787,6 +810,7 @@
 				CBF4354828D99BBA00993A17 /* Transaction2VC.swift in Sources */,
 				CB0B510428B6BA81008C9983 /* BaseView.swift in Sources */,
 				CB23B2FB28D8377300766B8A /* PaymentLimitVC.swift in Sources */,
+				CB19DBF428E0900300392E73 /* CoinsMarketVC.swift in Sources */,
 				CB23B2F428D830C600766B8A /* Notification.swift in Sources */,
 				CB1ECA0528BE7E5F00AE68D4 /* LoginView1.swift in Sources */,
 				CB19DBE728DF5C3600392E73 /* CoinsRateVC.swift in Sources */,
