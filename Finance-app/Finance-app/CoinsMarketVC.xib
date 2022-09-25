@@ -91,6 +91,9 @@
                         </imageView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhk-zw-zpo">
                             <rect key="frame" x="0.0" y="0.0" width="100" height="45"/>
+                            <connections>
+                                <action selector="actionFilter:" destination="-1" eventType="touchUpInside" id="lJz-LS-3lX"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
