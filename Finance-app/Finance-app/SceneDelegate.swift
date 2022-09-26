@@ -11,7 +11,7 @@ import IQKeyboardManagerSwift
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-    var baseView: CoinsMarketVC!
+    var baseView: CoinVC!
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
 //        window = UIWindow(frame: UIScreen.main.bounds)
 //
-        baseView = CoinsMarketVC(nibName: "CoinsMarketVC", bundle: nil)
+        baseView = CoinVC(nibName: "CoinVC", bundle: nil)
         let navController = NavigationController(rootViewController: baseView)
         window?.rootViewController = navController
         window?.makeKeyAndVisible()

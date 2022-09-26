@@ -35,6 +35,8 @@
 		CB19DBF528E0900300392E73 /* CoinsMarketVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB19DBF328E0900300392E73 /* CoinsMarketVC.xib */; };
 		CB19DBF828E0B0D100392E73 /* CoinsMarketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB19DBF628E0B0D100392E73 /* CoinsMarketCell.swift */; };
 		CB19DBF928E0B0D100392E73 /* CoinsMarketCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB19DBF728E0B0D100392E73 /* CoinsMarketCell.xib */; };
+		CB19DBFD28E0E15700392E73 /* CoinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB19DBFB28E0E15700392E73 /* CoinVC.swift */; };
+		CB19DBFE28E0E15700392E73 /* CoinVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB19DBFC28E0E15700392E73 /* CoinVC.xib */; };
 		CB1ECA0328BE7E5400AE68D4 /* LoginView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1ECA0228BE7E5400AE68D4 /* LoginView1.xib */; };
 		CB1ECA0528BE7E5F00AE68D4 /* LoginView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1ECA0428BE7E5F00AE68D4 /* LoginView1.swift */; };
 		CB1ECA0928BE7F0A00AE68D4 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1ECA0728BE7F0A00AE68D4 /* SignUpVC.swift */; };
@@ -105,6 +107,7 @@
 		CBFA2EE128DB9BC10001CB8B /* ReportTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBFA2EDF28DB9BC10001CB8B /* ReportTableViewCell.xib */; };
 		CBFA2EE328DB9E390001CB8B /* ReportMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA2EE228DB9E390001CB8B /* ReportMarkerView.swift */; };
 		CBFA2EE528DB9EC30001CB8B /* LargrValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA2EE428DB9EC30001CB8B /* LargrValueFormatter.swift */; };
+		CBFDB3FA28E1CD2E00D1660B /* CoinMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFDB3F928E1CD2E00D1660B /* CoinMarkerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -140,6 +143,8 @@
 		CB19DBF328E0900300392E73 /* CoinsMarketVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinsMarketVC.xib; sourceTree = "<group>"; };
 		CB19DBF628E0B0D100392E73 /* CoinsMarketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsMarketCell.swift; sourceTree = "<group>"; };
 		CB19DBF728E0B0D100392E73 /* CoinsMarketCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinsMarketCell.xib; sourceTree = "<group>"; };
+		CB19DBFB28E0E15700392E73 /* CoinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinVC.swift; sourceTree = "<group>"; };
+		CB19DBFC28E0E15700392E73 /* CoinVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinVC.xib; sourceTree = "<group>"; };
 		CB1ECA0228BE7E5400AE68D4 /* LoginView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginView1.xib; path = "Finance-app/Login/LoginView1.xib"; sourceTree = SOURCE_ROOT; };
 		CB1ECA0428BE7E5F00AE68D4 /* LoginView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView1.swift; path = "Finance-app/Login/LoginView1.swift"; sourceTree = SOURCE_ROOT; };
 		CB1ECA0728BE7F0A00AE68D4 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
@@ -210,6 +215,7 @@
 		CBFA2EDF28DB9BC10001CB8B /* ReportTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReportTableViewCell.xib; sourceTree = "<group>"; };
 		CBFA2EE228DB9E390001CB8B /* ReportMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportMarkerView.swift; sourceTree = "<group>"; };
 		CBFA2EE428DB9EC30001CB8B /* LargrValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargrValueFormatter.swift; sourceTree = "<group>"; };
+		CBFDB3F928E1CD2E00D1660B /* CoinMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMarkerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +276,7 @@
 				CB3056C428DA4FBD00C2697D /* ExchangeView */,
 				CBFA2ED928DB75140001CB8B /* Report */,
 				CB19DBF128E08FDA00392E73 /* CoinsMarket */,
+				CB19DBFA28E0E13500392E73 /* Coins */,
 				CB0B50FF28B6B9F5008C9983 /* app */,
 			);
 			path = "Finance-app";
@@ -333,6 +340,16 @@
 				CB19DBF728E0B0D100392E73 /* CoinsMarketCell.xib */,
 			);
 			name = CoinsMarket;
+			sourceTree = "<group>";
+		};
+		CB19DBFA28E0E13500392E73 /* Coins */ = {
+			isa = PBXGroup;
+			children = (
+				CB19DBFB28E0E15700392E73 /* CoinVC.swift */,
+				CB19DBFC28E0E15700392E73 /* CoinVC.xib */,
+				CBFDB3F928E1CD2E00D1660B /* CoinMarkerView.swift */,
+			);
+			name = Coins;
 			sourceTree = "<group>";
 		};
 		CB1ECA0128BE7DE200AE68D4 /* SignUpView */ = {
@@ -668,6 +685,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB1ECA0A28BE7F0A00AE68D4 /* SignUpVC.xib in Resources */,
+				CB19DBFE28E0E15700392E73 /* CoinVC.xib in Resources */,
 				CB2E6FE128CF572300CD3DBF /* HomeTableViewCell.xib in Resources */,
 				CB37F94428C1D6EB00BE003A /* LocationVC.xib in Resources */,
 				CBFA2EE128DB9BC10001CB8B /* ReportTableViewCell.xib in Resources */,
@@ -777,6 +795,7 @@
 				CBFA2EE328DB9E390001CB8B /* ReportMarkerView.swift in Sources */,
 				CBFA2EDC28DB75490001CB8B /* ReportVC.swift in Sources */,
 				CB2C138A28D6010C00E083AE /* TransactionHistoryVC.swift in Sources */,
+				CBFDB3FA28E1CD2E00D1660B /* CoinMarkerView.swift in Sources */,
 				CB0B511028B6BC71008C9983 /* NavController.swift in Sources */,
 				CB0B511228B6BCBD008C9983 /* UIImageView+Extension.swift in Sources */,
 				CB1ECA1428BF9B6200AE68D4 /* PhoneVC.swift in Sources */,
@@ -807,6 +826,7 @@
 				CBF4354C28D9AC5400993A17 /* Transaction2Cell.swift in Sources */,
 				CBFA2EE028DB9BC10001CB8B /* ReportTableViewCell.swift in Sources */,
 				CB2E6FE328CFBC2C00CD3DBF /* ChartViewMaker.swift in Sources */,
+				CB19DBFD28E0E15700392E73 /* CoinVC.swift in Sources */,
 				CBF4354828D99BBA00993A17 /* Transaction2VC.swift in Sources */,
 				CB0B510428B6BA81008C9983 /* BaseView.swift in Sources */,
 				CB23B2FB28D8377300766B8A /* PaymentLimitVC.swift in Sources */,
