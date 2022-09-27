@@ -113,6 +113,8 @@
 		CBFDB40228E2F88500D1660B /* MyCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFDB40028E2F88500D1660B /* MyCardCell.swift */; };
 		CBFDB40328E2F88500D1660B /* MyCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBFDB40128E2F88500D1660B /* MyCardCell.xib */; };
 		CBFDB40728E355B000D1660B /* CardsLayout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFDB40628E355B000D1660B /* CardsLayout2.swift */; };
+		CBFDB40B28E3588B00D1660B /* SettingsVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFDB40928E3588B00D1660B /* SettingsVC2.swift */; };
+		CBFDB40C28E3588B00D1660B /* SettingsVC2.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBFDB40A28E3588B00D1660B /* SettingsVC2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -226,6 +228,8 @@
 		CBFDB40028E2F88500D1660B /* MyCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardCell.swift; sourceTree = "<group>"; };
 		CBFDB40128E2F88500D1660B /* MyCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCardCell.xib; sourceTree = "<group>"; };
 		CBFDB40628E355B000D1660B /* CardsLayout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsLayout2.swift; sourceTree = "<group>"; };
+		CBFDB40928E3588B00D1660B /* SettingsVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC2.swift; sourceTree = "<group>"; };
+		CBFDB40A28E3588B00D1660B /* SettingsVC2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsVC2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,6 +292,7 @@
 				CB19DBF128E08FDA00392E73 /* CoinsMarket */,
 				CB19DBFA28E0E13500392E73 /* Coins */,
 				CBFDB3FB28E2052100D1660B /* MyCard */,
+				CBFDB40828E3584200D1660B /* SettingsVC2 */,
 				CB0B50FF28B6B9F5008C9983 /* app */,
 			);
 			path = "Finance-app";
@@ -630,6 +635,15 @@
 			name = MyCard;
 			sourceTree = "<group>";
 		};
+		CBFDB40828E3584200D1660B /* SettingsVC2 */ = {
+			isa = PBXGroup;
+			children = (
+				CBFDB40928E3588B00D1660B /* SettingsVC2.swift */,
+				CBFDB40A28E3588B00D1660B /* SettingsVC2.xib */,
+			);
+			name = SettingsVC2;
+			sourceTree = "<group>";
+		};
 		DD56186F96931E750BD39516 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -745,6 +759,7 @@
 				CB19DBDE28DEE82600392E73 /* AccountTableViewCell2.xib in Resources */,
 				CB0B50F528B6B8D5008C9983 /* Assets.xcassets in Resources */,
 				CB281B6E28D0F0C50074E2C3 /* MonthlyreportVC.xib in Resources */,
+				CBFDB40C28E3588B00D1660B /* SettingsVC2.xib in Resources */,
 				CB3056C328D9EDC000C2697D /* TransfermoneyVC.xib in Resources */,
 				CB37F93F28C095F800BE003A /* OtpVC.xib in Resources */,
 				CB0B50F328B6B8D3008C9983 /* Main.storyboard in Resources */,
@@ -855,6 +870,7 @@
 				CBFA2EE028DB9BC10001CB8B /* ReportTableViewCell.swift in Sources */,
 				CB2E6FE328CFBC2C00CD3DBF /* ChartViewMaker.swift in Sources */,
 				CB19DBFD28E0E15700392E73 /* CoinVC.swift in Sources */,
+				CBFDB40B28E3588B00D1660B /* SettingsVC2.swift in Sources */,
 				CBF4354828D99BBA00993A17 /* Transaction2VC.swift in Sources */,
 				CB0B510428B6BA81008C9983 /* BaseView.swift in Sources */,
 				CB23B2FB28D8377300766B8A /* PaymentLimitVC.swift in Sources */,
