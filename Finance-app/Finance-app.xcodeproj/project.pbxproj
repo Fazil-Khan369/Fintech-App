@@ -108,6 +108,11 @@
 		CBFA2EE328DB9E390001CB8B /* ReportMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA2EE228DB9E390001CB8B /* ReportMarkerView.swift */; };
 		CBFA2EE528DB9EC30001CB8B /* LargrValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA2EE428DB9EC30001CB8B /* LargrValueFormatter.swift */; };
 		CBFDB3FA28E1CD2E00D1660B /* CoinMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFDB3F928E1CD2E00D1660B /* CoinMarkerView.swift */; };
+		CBFDB3FE28E2055200D1660B /* MyCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFDB3FC28E2055200D1660B /* MyCardVC.swift */; };
+		CBFDB3FF28E2055200D1660B /* MyCardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBFDB3FD28E2055200D1660B /* MyCardVC.xib */; };
+		CBFDB40228E2F88500D1660B /* MyCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFDB40028E2F88500D1660B /* MyCardCell.swift */; };
+		CBFDB40328E2F88500D1660B /* MyCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBFDB40128E2F88500D1660B /* MyCardCell.xib */; };
+		CBFDB40728E355B000D1660B /* CardsLayout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFDB40628E355B000D1660B /* CardsLayout2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -216,6 +221,11 @@
 		CBFA2EE228DB9E390001CB8B /* ReportMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportMarkerView.swift; sourceTree = "<group>"; };
 		CBFA2EE428DB9EC30001CB8B /* LargrValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargrValueFormatter.swift; sourceTree = "<group>"; };
 		CBFDB3F928E1CD2E00D1660B /* CoinMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMarkerView.swift; sourceTree = "<group>"; };
+		CBFDB3FC28E2055200D1660B /* MyCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardVC.swift; sourceTree = "<group>"; };
+		CBFDB3FD28E2055200D1660B /* MyCardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCardVC.xib; sourceTree = "<group>"; };
+		CBFDB40028E2F88500D1660B /* MyCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardCell.swift; sourceTree = "<group>"; };
+		CBFDB40128E2F88500D1660B /* MyCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCardCell.xib; sourceTree = "<group>"; };
+		CBFDB40628E355B000D1660B /* CardsLayout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsLayout2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +287,7 @@
 				CBFA2ED928DB75140001CB8B /* Report */,
 				CB19DBF128E08FDA00392E73 /* CoinsMarket */,
 				CB19DBFA28E0E13500392E73 /* Coins */,
+				CBFDB3FB28E2052100D1660B /* MyCard */,
 				CB0B50FF28B6B9F5008C9983 /* app */,
 			);
 			path = "Finance-app";
@@ -607,6 +618,18 @@
 			name = Report;
 			sourceTree = "<group>";
 		};
+		CBFDB3FB28E2052100D1660B /* MyCard */ = {
+			isa = PBXGroup;
+			children = (
+				CBFDB3FC28E2055200D1660B /* MyCardVC.swift */,
+				CBFDB3FD28E2055200D1660B /* MyCardVC.xib */,
+				CBFDB40028E2F88500D1660B /* MyCardCell.swift */,
+				CBFDB40128E2F88500D1660B /* MyCardCell.xib */,
+				CBFDB40628E355B000D1660B /* CardsLayout2.swift */,
+			);
+			name = MyCard;
+			sourceTree = "<group>";
+		};
 		DD56186F96931E750BD39516 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -699,6 +722,7 @@
 				CB19DBE828DF5C3600392E73 /* CoinsRateVC.xib in Resources */,
 				CB1ECA0328BE7E5400AE68D4 /* LoginView1.xib in Resources */,
 				CBF4354428D8AFF300993A17 /* SettingsVC.xib in Resources */,
+				CBFDB40328E2F88500D1660B /* MyCardCell.xib in Resources */,
 				CB19DBEC28DF925A00392E73 /* CoinRateCollectionViewCell.xib in Resources */,
 				CB0B50F828B6B8D5008C9983 /* LaunchScreen.storyboard in Resources */,
 				CB19DBF528E0900300392E73 /* CoinsMarketVC.xib in Resources */,
@@ -730,6 +754,7 @@
 				CB2E6FD928CEE0C900CD3DBF /* HomeVC.xib in Resources */,
 				CB1ECA1B28BF9BF600AE68D4 /* phone_countyCode.json in Resources */,
 				CB2E6FC728CB5FA700CD3DBF /* PlanVC.xib in Resources */,
+				CBFDB3FF28E2055200D1660B /* MyCardVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -795,6 +820,7 @@
 				CBFA2EE328DB9E390001CB8B /* ReportMarkerView.swift in Sources */,
 				CBFA2EDC28DB75490001CB8B /* ReportVC.swift in Sources */,
 				CB2C138A28D6010C00E083AE /* TransactionHistoryVC.swift in Sources */,
+				CBFDB40728E355B000D1660B /* CardsLayout2.swift in Sources */,
 				CBFDB3FA28E1CD2E00D1660B /* CoinMarkerView.swift in Sources */,
 				CB0B511028B6BC71008C9983 /* NavController.swift in Sources */,
 				CB0B511228B6BCBD008C9983 /* UIImageView+Extension.swift in Sources */,
@@ -820,10 +846,12 @@
 				CB281B7628D1A2F30074E2C3 /* MonthlyReportChartview.swift in Sources */,
 				CB19DBD928DEE62A00392E73 /* AccountTableViewCell1.swift in Sources */,
 				CB2E6FDC28CF297500CD3DBF /* HomeCollectionViewCell.swift in Sources */,
+				CBFDB3FE28E2055200D1660B /* MyCardVC.swift in Sources */,
 				CB2E6FC628CB5FA700CD3DBF /* PlanVC.swift in Sources */,
 				CBDF337E28D350C1002BF05B /* CardsLayout.swift in Sources */,
 				CB281B7128D113B50074E2C3 /* MonthlyReportCell.swift in Sources */,
 				CBF4354C28D9AC5400993A17 /* Transaction2Cell.swift in Sources */,
+				CBFDB40228E2F88500D1660B /* MyCardCell.swift in Sources */,
 				CBFA2EE028DB9BC10001CB8B /* ReportTableViewCell.swift in Sources */,
 				CB2E6FE328CFBC2C00CD3DBF /* ChartViewMaker.swift in Sources */,
 				CB19DBFD28E0E15700392E73 /* CoinVC.swift in Sources */,
