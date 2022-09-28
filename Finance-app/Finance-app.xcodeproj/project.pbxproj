@@ -90,6 +90,8 @@
 		CB5603DE28C7DF940040C651 /* NotificationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB5603DC28C7DF940040C651 /* NotificationVC.xib */; };
 		CBA4CB8E28DC4F89005E289F /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA4CB8C28DC4F89005E289F /* AccountVC.swift */; };
 		CBA4CB8F28DC4F89005E289F /* AccountVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA4CB8D28DC4F89005E289F /* AccountVC.xib */; };
+		CBB4134A28E37F5B00B613F5 /* AddNewCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB4134828E37F5B00B613F5 /* AddNewCardVC.swift */; };
+		CBB4134B28E37F5B00B613F5 /* AddNewCardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB4134928E37F5B00B613F5 /* AddNewCardVC.xib */; };
 		CBD6E2CF28D3B938008B2540 /* CardDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD6E2CD28D3B938008B2540 /* CardDetailsCollectionViewCell.swift */; };
 		CBD6E2D028D3B938008B2540 /* CardDetailsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD6E2CE28D3B938008B2540 /* CardDetailsCollectionViewCell.xib */; };
 		CBDF337B28D34806002BF05B /* CardVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF337928D34806002BF05B /* CardVCViewController.swift */; };
@@ -205,6 +207,8 @@
 		CB5603DC28C7DF940040C651 /* NotificationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationVC.xib; sourceTree = "<group>"; };
 		CBA4CB8C28DC4F89005E289F /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
 		CBA4CB8D28DC4F89005E289F /* AccountVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountVC.xib; sourceTree = "<group>"; };
+		CBB4134828E37F5B00B613F5 /* AddNewCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCardVC.swift; sourceTree = "<group>"; };
+		CBB4134928E37F5B00B613F5 /* AddNewCardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewCardVC.xib; sourceTree = "<group>"; };
 		CBD6E2CD28D3B938008B2540 /* CardDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
 		CBD6E2CE28D3B938008B2540 /* CardDetailsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardDetailsCollectionViewCell.xib; sourceTree = "<group>"; };
 		CBDF337928D34806002BF05B /* CardVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardVCViewController.swift; sourceTree = "<group>"; };
@@ -292,6 +296,7 @@
 				CB19DBF128E08FDA00392E73 /* CoinsMarket */,
 				CB19DBFA28E0E13500392E73 /* Coins */,
 				CBFDB3FB28E2052100D1660B /* MyCard */,
+				CBFDB40E28E37E7600D1660B /* AddNewCard */,
 				CBFDB40828E3584200D1660B /* SettingsVC2 */,
 				CB0B50FF28B6B9F5008C9983 /* app */,
 			);
@@ -644,6 +649,15 @@
 			name = SettingsVC2;
 			sourceTree = "<group>";
 		};
+		CBFDB40E28E37E7600D1660B /* AddNewCard */ = {
+			isa = PBXGroup;
+			children = (
+				CBB4134828E37F5B00B613F5 /* AddNewCardVC.swift */,
+				CBB4134928E37F5B00B613F5 /* AddNewCardVC.xib */,
+			);
+			name = AddNewCard;
+			sourceTree = "<group>";
+		};
 		DD56186F96931E750BD39516 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -746,6 +760,7 @@
 				CB1ECA0F28BF4EED00AE68D4 /* signup1_facebook@2x.png in Resources */,
 				CB5603DE28C7DF940040C651 /* NotificationVC.xib in Resources */,
 				CB23B2F528D830C600766B8A /* Notification.xib in Resources */,
+				CBB4134B28E37F5B00B613F5 /* AddNewCardVC.xib in Resources */,
 				CB23B2FC28D8377300766B8A /* PaymentLimitVC.xib in Resources */,
 				CB281B7228D113B50074E2C3 /* MonthlyReportCell.xib in Resources */,
 				CB2E6FCB28CD2C3F00CD3DBF /* PlanCell.xib in Resources */,
@@ -855,6 +870,7 @@
 				CB0B511628B6BCEB008C9983 /* UIView+Extenion.swift in Sources */,
 				CB2E6FD828CEE0C900CD3DBF /* HomeVC.swift in Sources */,
 				CBA4CB8E28DC4F89005E289F /* AccountVC.swift in Sources */,
+				CBB4134A28E37F5B00B613F5 /* AddNewCardVC.swift in Sources */,
 				CB3056C828DA4FFE00C2697D /* ExchangeVC.swift in Sources */,
 				CB0B50EE28B6B8D3008C9983 /* SceneDelegate.swift in Sources */,
 				CB2E6FE028CF572300CD3DBF /* HomeTableViewCell.swift in Sources */,
