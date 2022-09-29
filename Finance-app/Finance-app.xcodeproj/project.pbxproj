@@ -86,6 +86,8 @@
 		CB37F93F28C095F800BE003A /* OtpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB37F93D28C095F800BE003A /* OtpVC.xib */; };
 		CB37F94328C1D6EB00BE003A /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB37F94128C1D6EB00BE003A /* LocationVC.swift */; };
 		CB37F94428C1D6EB00BE003A /* LocationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB37F94228C1D6EB00BE003A /* LocationVC.xib */; };
+		CB3978ED28E4C05B00DA6246 /* RateAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3978EB28E4C05B00DA6246 /* RateAppVC.swift */; };
+		CB3978EE28E4C05B00DA6246 /* RateAppVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB3978EC28E4C05B00DA6246 /* RateAppVC.xib */; };
 		CB5603DD28C7DF940040C651 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5603DB28C7DF940040C651 /* NotificationVC.swift */; };
 		CB5603DE28C7DF940040C651 /* NotificationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB5603DC28C7DF940040C651 /* NotificationVC.xib */; };
 		CBA4CB8E28DC4F89005E289F /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA4CB8C28DC4F89005E289F /* AccountVC.swift */; };
@@ -203,6 +205,8 @@
 		CB37F93D28C095F800BE003A /* OtpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtpVC.xib; sourceTree = "<group>"; };
 		CB37F94128C1D6EB00BE003A /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		CB37F94228C1D6EB00BE003A /* LocationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationVC.xib; sourceTree = "<group>"; };
+		CB3978EB28E4C05B00DA6246 /* RateAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateAppVC.swift; sourceTree = "<group>"; };
+		CB3978EC28E4C05B00DA6246 /* RateAppVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RateAppVC.xib; sourceTree = "<group>"; };
 		CB5603DB28C7DF940040C651 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
 		CB5603DC28C7DF940040C651 /* NotificationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationVC.xib; sourceTree = "<group>"; };
 		CBA4CB8C28DC4F89005E289F /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
@@ -298,6 +302,7 @@
 				CBFDB3FB28E2052100D1660B /* MyCard */,
 				CBFDB40E28E37E7600D1660B /* AddNewCard */,
 				CBFDB40828E3584200D1660B /* SettingsVC2 */,
+				CB3978EA28E4C03A00DA6246 /* RateApp */,
 				CB0B50FF28B6B9F5008C9983 /* app */,
 			);
 			path = "Finance-app";
@@ -553,6 +558,15 @@
 			path = Location;
 			sourceTree = "<group>";
 		};
+		CB3978EA28E4C03A00DA6246 /* RateApp */ = {
+			isa = PBXGroup;
+			children = (
+				CB3978EB28E4C05B00DA6246 /* RateAppVC.swift */,
+				CB3978EC28E4C05B00DA6246 /* RateAppVC.xib */,
+			);
+			name = RateApp;
+			sourceTree = "<group>";
+		};
 		CB5603D728C7A80D0040C651 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -766,6 +780,7 @@
 				CB2E6FCB28CD2C3F00CD3DBF /* PlanCell.xib in Resources */,
 				CBF4354D28D9AC5400993A17 /* Transaction2Cell.xib in Resources */,
 				CBA4CB8F28DC4F89005E289F /* AccountVC.xib in Resources */,
+				CB3978EE28E4C05B00DA6246 /* RateAppVC.xib in Resources */,
 				CB2C138F28D6CC6500E083AE /* TransactionHistoryCollectionViewCell.xib in Resources */,
 				CBFA2EDD28DB75490001CB8B /* ReportVC.xib in Resources */,
 				CBF4354928D99BBA00993A17 /* Transaction2VC.xib in Resources */,
@@ -893,6 +908,7 @@
 				CB19DBF428E0900300392E73 /* CoinsMarketVC.swift in Sources */,
 				CB23B2F428D830C600766B8A /* Notification.swift in Sources */,
 				CB1ECA0528BE7E5F00AE68D4 /* LoginView1.swift in Sources */,
+				CB3978ED28E4C05B00DA6246 /* RateAppVC.swift in Sources */,
 				CB19DBE728DF5C3600392E73 /* CoinsRateVC.swift in Sources */,
 				CB0B510E28B6BC5F008C9983 /* AppColor.swift in Sources */,
 				CBDF337B28D34806002BF05B /* CardVCViewController.swift in Sources */,
