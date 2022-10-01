@@ -88,6 +88,10 @@
 		CB37F94428C1D6EB00BE003A /* LocationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB37F94228C1D6EB00BE003A /* LocationVC.xib */; };
 		CB3978ED28E4C05B00DA6246 /* RateAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3978EB28E4C05B00DA6246 /* RateAppVC.swift */; };
 		CB3978EE28E4C05B00DA6246 /* RateAppVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB3978EC28E4C05B00DA6246 /* RateAppVC.xib */; };
+		CB3978F228E606A600DA6246 /* HomeVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3978F028E606A600DA6246 /* HomeVC2.swift */; };
+		CB3978F328E606A600DA6246 /* HomeVC2.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB3978F128E606A600DA6246 /* HomeVC2.xib */; };
+		CB3978F628E7510200DA6246 /* HomeVC2Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3978F428E7510200DA6246 /* HomeVC2Cell.swift */; };
+		CB3978F728E7510200DA6246 /* HomeVC2Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB3978F528E7510200DA6246 /* HomeVC2Cell.xib */; };
 		CB5603DD28C7DF940040C651 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5603DB28C7DF940040C651 /* NotificationVC.swift */; };
 		CB5603DE28C7DF940040C651 /* NotificationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB5603DC28C7DF940040C651 /* NotificationVC.xib */; };
 		CBA4CB8E28DC4F89005E289F /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA4CB8C28DC4F89005E289F /* AccountVC.swift */; };
@@ -207,6 +211,10 @@
 		CB37F94228C1D6EB00BE003A /* LocationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationVC.xib; sourceTree = "<group>"; };
 		CB3978EB28E4C05B00DA6246 /* RateAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateAppVC.swift; sourceTree = "<group>"; };
 		CB3978EC28E4C05B00DA6246 /* RateAppVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RateAppVC.xib; sourceTree = "<group>"; };
+		CB3978F028E606A600DA6246 /* HomeVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC2.swift; sourceTree = "<group>"; };
+		CB3978F128E606A600DA6246 /* HomeVC2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC2.xib; sourceTree = "<group>"; };
+		CB3978F428E7510200DA6246 /* HomeVC2Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC2Cell.swift; sourceTree = "<group>"; };
+		CB3978F528E7510200DA6246 /* HomeVC2Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC2Cell.xib; sourceTree = "<group>"; };
 		CB5603DB28C7DF940040C651 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
 		CB5603DC28C7DF940040C651 /* NotificationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationVC.xib; sourceTree = "<group>"; };
 		CBA4CB8C28DC4F89005E289F /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
@@ -302,6 +310,7 @@
 				CBFDB3FB28E2052100D1660B /* MyCard */,
 				CBFDB40E28E37E7600D1660B /* AddNewCard */,
 				CBFDB40828E3584200D1660B /* SettingsVC2 */,
+				CB3978EF28E6068A00DA6246 /* HomeVC2 */,
 				CB3978EA28E4C03A00DA6246 /* RateApp */,
 				CB0B50FF28B6B9F5008C9983 /* app */,
 			);
@@ -567,6 +576,17 @@
 			name = RateApp;
 			sourceTree = "<group>";
 		};
+		CB3978EF28E6068A00DA6246 /* HomeVC2 */ = {
+			isa = PBXGroup;
+			children = (
+				CB3978F028E606A600DA6246 /* HomeVC2.swift */,
+				CB3978F128E606A600DA6246 /* HomeVC2.xib */,
+				CB3978F428E7510200DA6246 /* HomeVC2Cell.swift */,
+				CB3978F528E7510200DA6246 /* HomeVC2Cell.xib */,
+			);
+			name = HomeVC2;
+			sourceTree = "<group>";
+		};
 		CB5603D728C7A80D0040C651 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -753,6 +773,7 @@
 				CB19DBFE28E0E15700392E73 /* CoinVC.xib in Resources */,
 				CB2E6FE128CF572300CD3DBF /* HomeTableViewCell.xib in Resources */,
 				CB37F94428C1D6EB00BE003A /* LocationVC.xib in Resources */,
+				CB3978F728E7510200DA6246 /* HomeVC2Cell.xib in Resources */,
 				CBFA2EE128DB9BC10001CB8B /* ReportTableViewCell.xib in Resources */,
 				CB2C139328D6CE5D00E083AE /* TransactionHistoryTableViewCell.xib in Resources */,
 				CB19DBF928E0B0D100392E73 /* CoinsMarketCell.xib in Resources */,
@@ -773,6 +794,7 @@
 				CB19DBF028DF927100392E73 /* CoinRateTableViewCell.xib in Resources */,
 				CB1ECA0F28BF4EED00AE68D4 /* signup1_facebook@2x.png in Resources */,
 				CB5603DE28C7DF940040C651 /* NotificationVC.xib in Resources */,
+				CB3978F328E606A600DA6246 /* HomeVC2.xib in Resources */,
 				CB23B2F528D830C600766B8A /* Notification.xib in Resources */,
 				CBB4134B28E37F5B00B613F5 /* AddNewCardVC.xib in Resources */,
 				CB23B2FC28D8377300766B8A /* PaymentLimitVC.xib in Resources */,
@@ -856,6 +878,7 @@
 				CB19DBDD28DEE82600392E73 /* AccountTableViewCell2.swift in Sources */,
 				CB2E6FCA28CD2C3F00CD3DBF /* PlanCell.swift in Sources */,
 				CB19DBEF28DF927100392E73 /* CoinRateTableViewCell.swift in Sources */,
+				CB3978F228E606A600DA6246 /* HomeVC2.swift in Sources */,
 				CB0B511428B6BCD6008C9983 /* UITextField+Extension.swift in Sources */,
 				CB3056C228D9EDC000C2697D /* TransfermoneyVC.swift in Sources */,
 				CB2C139228D6CE5D00E083AE /* TransactionHistoryTableViewCell.swift in Sources */,
@@ -903,6 +926,7 @@
 				CB19DBFD28E0E15700392E73 /* CoinVC.swift in Sources */,
 				CBFDB40B28E3588B00D1660B /* SettingsVC2.swift in Sources */,
 				CBF4354828D99BBA00993A17 /* Transaction2VC.swift in Sources */,
+				CB3978F628E7510200DA6246 /* HomeVC2Cell.swift in Sources */,
 				CB0B510428B6BA81008C9983 /* BaseView.swift in Sources */,
 				CB23B2FB28D8377300766B8A /* PaymentLimitVC.swift in Sources */,
 				CB19DBF428E0900300392E73 /* CoinsMarketVC.swift in Sources */,
