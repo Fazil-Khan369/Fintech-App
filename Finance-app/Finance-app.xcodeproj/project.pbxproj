@@ -100,6 +100,8 @@
 		CB99104528E9ED4E007DECED /* SendMoneyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB99104328E9ED4E007DECED /* SendMoneyCell.xib */; };
 		CB99104928E9FE62007DECED /* PaymentSuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB99104728E9FE62007DECED /* PaymentSuccessVC.swift */; };
 		CB99104A28E9FE62007DECED /* PaymentSuccessVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB99104828E9FE62007DECED /* PaymentSuccessVC.xib */; };
+		CB99104E28EAC6B4007DECED /* PhonePaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB99104C28EAC6B4007DECED /* PhonePaymentVC.swift */; };
+		CB99104F28EAC6B4007DECED /* PhonePaymentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB99104D28EAC6B4007DECED /* PhonePaymentVC.xib */; };
 		CBA4CB8E28DC4F89005E289F /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA4CB8C28DC4F89005E289F /* AccountVC.swift */; };
 		CBA4CB8F28DC4F89005E289F /* AccountVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA4CB8D28DC4F89005E289F /* AccountVC.xib */; };
 		CBB4134A28E37F5B00B613F5 /* AddNewCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB4134828E37F5B00B613F5 /* AddNewCardVC.swift */; };
@@ -229,6 +231,8 @@
 		CB99104328E9ED4E007DECED /* SendMoneyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SendMoneyCell.xib; sourceTree = "<group>"; };
 		CB99104728E9FE62007DECED /* PaymentSuccessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSuccessVC.swift; sourceTree = "<group>"; };
 		CB99104828E9FE62007DECED /* PaymentSuccessVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentSuccessVC.xib; sourceTree = "<group>"; };
+		CB99104C28EAC6B4007DECED /* PhonePaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePaymentVC.swift; sourceTree = "<group>"; };
+		CB99104D28EAC6B4007DECED /* PhonePaymentVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhonePaymentVC.xib; sourceTree = "<group>"; };
 		CBA4CB8C28DC4F89005E289F /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
 		CBA4CB8D28DC4F89005E289F /* AccountVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountVC.xib; sourceTree = "<group>"; };
 		CBB4134828E37F5B00B613F5 /* AddNewCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCardVC.swift; sourceTree = "<group>"; };
@@ -326,6 +330,7 @@
 				CB3978F828E8141A00DA6246 /* SendMoney */,
 				CB99104628E9FE20007DECED /* PaymentSucess */,
 				CB3978EA28E4C03A00DA6246 /* RateApp */,
+				CB99104B28EAC690007DECED /* PhonePayment */,
 				CB0B50FF28B6B9F5008C9983 /* app */,
 			);
 			path = "Finance-app";
@@ -637,6 +642,15 @@
 			name = PaymentSucess;
 			sourceTree = "<group>";
 		};
+		CB99104B28EAC690007DECED /* PhonePayment */ = {
+			isa = PBXGroup;
+			children = (
+				CB99104C28EAC6B4007DECED /* PhonePaymentVC.swift */,
+				CB99104D28EAC6B4007DECED /* PhonePaymentVC.xib */,
+			);
+			path = PhonePayment;
+			sourceTree = "<group>";
+		};
 		CBA4CB8B28DC4E6F005E289F /* Accounts */ = {
 			isa = PBXGroup;
 			children = (
@@ -855,6 +869,7 @@
 				CB19DBDA28DEE62A00392E73 /* AccountTableViewCell1.xib in Resources */,
 				CB0B510528B6BA81008C9983 /* BaseView.xib in Resources */,
 				CB2E6FD928CEE0C900CD3DBF /* HomeVC.xib in Resources */,
+				CB99104F28EAC6B4007DECED /* PhonePaymentVC.xib in Resources */,
 				CB1ECA1B28BF9BF600AE68D4 /* phone_countyCode.json in Resources */,
 				CB99104A28E9FE62007DECED /* PaymentSuccessVC.xib in Resources */,
 				CB2E6FC728CB5FA700CD3DBF /* PlanVC.xib in Resources */,
@@ -957,6 +972,7 @@
 				CBFDB3FE28E2055200D1660B /* MyCardVC.swift in Sources */,
 				CB2E6FC628CB5FA700CD3DBF /* PlanVC.swift in Sources */,
 				CBDF337E28D350C1002BF05B /* CardsLayout.swift in Sources */,
+				CB99104E28EAC6B4007DECED /* PhonePaymentVC.swift in Sources */,
 				CB281B7128D113B50074E2C3 /* MonthlyReportCell.swift in Sources */,
 				CBF4354C28D9AC5400993A17 /* Transaction2Cell.swift in Sources */,
 				CB3978FB28E8144700DA6246 /* SendMoneyVC.swift in Sources */,
