@@ -102,6 +102,10 @@
 		CB99104A28E9FE62007DECED /* PaymentSuccessVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB99104828E9FE62007DECED /* PaymentSuccessVC.xib */; };
 		CB99104E28EAC6B4007DECED /* PhonePaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB99104C28EAC6B4007DECED /* PhonePaymentVC.swift */; };
 		CB99104F28EAC6B4007DECED /* PhonePaymentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB99104D28EAC6B4007DECED /* PhonePaymentVC.xib */; };
+		CB99105428EB4D30007DECED /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB99105228EB4D30007DECED /* ListVC.swift */; };
+		CB99105528EB4D30007DECED /* ListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB99105328EB4D30007DECED /* ListVC.xib */; };
+		CB99105828ECA0DE007DECED /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB99105628ECA0DE007DECED /* ListViewCell.swift */; };
+		CB99105928ECA0DE007DECED /* ListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB99105728ECA0DE007DECED /* ListViewCell.xib */; };
 		CBA4CB8E28DC4F89005E289F /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA4CB8C28DC4F89005E289F /* AccountVC.swift */; };
 		CBA4CB8F28DC4F89005E289F /* AccountVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA4CB8D28DC4F89005E289F /* AccountVC.xib */; };
 		CBB4134A28E37F5B00B613F5 /* AddNewCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB4134828E37F5B00B613F5 /* AddNewCardVC.swift */; };
@@ -233,6 +237,10 @@
 		CB99104828E9FE62007DECED /* PaymentSuccessVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentSuccessVC.xib; sourceTree = "<group>"; };
 		CB99104C28EAC6B4007DECED /* PhonePaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePaymentVC.swift; sourceTree = "<group>"; };
 		CB99104D28EAC6B4007DECED /* PhonePaymentVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhonePaymentVC.xib; sourceTree = "<group>"; };
+		CB99105228EB4D30007DECED /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		CB99105328EB4D30007DECED /* ListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListVC.xib; sourceTree = "<group>"; };
+		CB99105628ECA0DE007DECED /* ListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
+		CB99105728ECA0DE007DECED /* ListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewCell.xib; sourceTree = "<group>"; };
 		CBA4CB8C28DC4F89005E289F /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
 		CBA4CB8D28DC4F89005E289F /* AccountVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountVC.xib; sourceTree = "<group>"; };
 		CBB4134828E37F5B00B613F5 /* AddNewCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCardVC.swift; sourceTree = "<group>"; };
@@ -331,6 +339,7 @@
 				CB99104628E9FE20007DECED /* PaymentSucess */,
 				CB3978EA28E4C03A00DA6246 /* RateApp */,
 				CB99104B28EAC690007DECED /* PhonePayment */,
+				CB99105128EB4D01007DECED /* ListView */,
 				CB0B50FF28B6B9F5008C9983 /* app */,
 			);
 			path = "Finance-app";
@@ -651,6 +660,17 @@
 			path = PhonePayment;
 			sourceTree = "<group>";
 		};
+		CB99105128EB4D01007DECED /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				CB99105228EB4D30007DECED /* ListVC.swift */,
+				CB99105328EB4D30007DECED /* ListVC.xib */,
+				CB99105628ECA0DE007DECED /* ListViewCell.swift */,
+				CB99105728ECA0DE007DECED /* ListViewCell.xib */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
 		CBA4CB8B28DC4E6F005E289F /* Accounts */ = {
 			isa = PBXGroup;
 			children = (
@@ -825,6 +845,7 @@
 				CB3978F728E7510200DA6246 /* HomeVC2Cell.xib in Resources */,
 				CBFA2EE128DB9BC10001CB8B /* ReportTableViewCell.xib in Resources */,
 				CB2C139328D6CE5D00E083AE /* TransactionHistoryTableViewCell.xib in Resources */,
+				CB99105928ECA0DE007DECED /* ListViewCell.xib in Resources */,
 				CB19DBF928E0B0D100392E73 /* CoinsMarketCell.xib in Resources */,
 				CBDF337C28D34806002BF05B /* CardVCViewController.xib in Resources */,
 				CB2C138B28D6010C00E083AE /* TransactionHistoryVC.xib in Resources */,
@@ -841,6 +862,7 @@
 				CB19DBF528E0900300392E73 /* CoinsMarketVC.xib in Resources */,
 				CB1ECA1528BF9B6200AE68D4 /* PhoneVC.xib in Resources */,
 				CB3056C928DA4FFE00C2697D /* ExchangeVC.xib in Resources */,
+				CB99105528EB4D30007DECED /* ListVC.xib in Resources */,
 				CB19DBF028DF927100392E73 /* CoinRateTableViewCell.xib in Resources */,
 				CB1ECA0F28BF4EED00AE68D4 /* signup1_facebook@2x.png in Resources */,
 				CB5603DE28C7DF940040C651 /* NotificationVC.xib in Resources */,
@@ -937,6 +959,7 @@
 				CB3056C228D9EDC000C2697D /* TransfermoneyVC.swift in Sources */,
 				CB2C139228D6CE5D00E083AE /* TransactionHistoryTableViewCell.swift in Sources */,
 				CB5603DD28C7DF940040C651 /* NotificationVC.swift in Sources */,
+				CB99105428EB4D30007DECED /* ListVC.swift in Sources */,
 				CB2E6FCF28CE1FC700CD3DBF /* OnBoardingVC.swift in Sources */,
 				CB2C138E28D6CC6500E083AE /* TransactionHistoryCollectionViewCell.swift in Sources */,
 				CBFA2EE328DB9E390001CB8B /* ReportMarkerView.swift in Sources */,
@@ -949,6 +972,7 @@
 				CB1ECA1428BF9B6200AE68D4 /* PhoneVC.swift in Sources */,
 				CBFA2EE528DB9EC30001CB8B /* LargrValueFormatter.swift in Sources */,
 				CBD6E2CF28D3B938008B2540 /* CardDetailsCollectionViewCell.swift in Sources */,
+				CB99105828ECA0DE007DECED /* ListViewCell.swift in Sources */,
 				CB37F93E28C095F800BE003A /* OtpVC.swift in Sources */,
 				CB2E6FC128CB5AC700CD3DBF /* PasscodeVC.swift in Sources */,
 				CB1ECA0928BE7F0A00AE68D4 /* SignUpVC.swift in Sources */,

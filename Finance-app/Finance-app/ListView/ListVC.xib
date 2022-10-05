@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListVC" customModule="Finance_app" customModuleProvider="target">
+            <connections>
+                <outlet property="SearchBar" destination="Ykc-kE-jT7" id="DxK-eF-biG"/>
+                <outlet property="segmentedControl" destination="3eg-An-yWO" id="TXp-NB-cf2"/>
+                <outlet property="tableView" destination="LRS-BN-VXN" id="XqY-c5-FRl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="Ykc-kE-jT7">
+                    <rect key="frame" x="5" y="0.0" width="375" height="56"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="QxO-q1-yab"/>
+                    </connections>
+                </searchBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="LRS-BN-VXN">
+                    <rect key="frame" x="0.0" y="56" width="375" height="611"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="mwG-nv-3lX"/>
+                        <outlet property="delegate" destination="-1" id="J2u-XH-JGW"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="LRS-BN-VXN" firstAttribute="top" secondItem="Ykc-kE-jT7" secondAttribute="bottom" id="DCG-88-Wfr"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LRS-BN-VXN" secondAttribute="trailing" id="Dtt-Z4-wkQ"/>
+                <constraint firstItem="Ykc-kE-jT7" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" constant="5" id="ID5-0z-9yb"/>
+                <constraint firstItem="LRS-BN-VXN" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Ns3-4b-iLT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="LRS-BN-VXN" secondAttribute="bottom" id="Op0-BM-m6J"/>
+                <constraint firstItem="Ykc-kE-jT7" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Uak-sc-DEk"/>
+                <constraint firstItem="Ykc-kE-jT7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" id="fmj-Qy-7Ni"/>
+            </constraints>
+            <point key="canvasLocation" x="75" y="21"/>
+        </view>
+        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="3eg-An-yWO">
+            <rect key="frame" x="0.0" y="0.0" width="205" height="33"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <segments>
+                <segment title="List"/>
+                <segment title="Map"/>
+            </segments>
+            <color key="selectedSegmentTintColor" name="Theme"/>
+            <connections>
+                <action selector="actionSegmentChange:" destination="-1" eventType="valueChanged" id="vRA-LA-Osg"/>
+            </connections>
+            <point key="canvasLocation" x="359" y="-356"/>
+        </segmentedControl>
+    </objects>
+    <resources>
+        <namedColor name="Theme">
+            <color red="0.074509803921568626" green="0.23529411764705882" blue="0.34509803921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
