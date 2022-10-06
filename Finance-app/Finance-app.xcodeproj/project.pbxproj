@@ -106,6 +106,10 @@
 		CB99105528EB4D30007DECED /* ListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB99105328EB4D30007DECED /* ListVC.xib */; };
 		CB99105828ECA0DE007DECED /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB99105628ECA0DE007DECED /* ListViewCell.swift */; };
 		CB99105928ECA0DE007DECED /* ListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB99105728ECA0DE007DECED /* ListViewCell.xib */; };
+		CB99105D28ED6D70007DECED /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB99105B28ED6D70007DECED /* MapVC.swift */; };
+		CB99105E28ED6D70007DECED /* MapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB99105C28ED6D70007DECED /* MapVC.xib */; };
+		CB99106028EDA41F007DECED /* MapCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB99105F28EDA41F007DECED /* MapCalloutView.swift */; };
+		CB99106F28EDBC0A007DECED /* MapCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB99106E28EDBC0A007DECED /* MapCalloutView.xib */; };
 		CBA4CB8E28DC4F89005E289F /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA4CB8C28DC4F89005E289F /* AccountVC.swift */; };
 		CBA4CB8F28DC4F89005E289F /* AccountVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA4CB8D28DC4F89005E289F /* AccountVC.xib */; };
 		CBB4134A28E37F5B00B613F5 /* AddNewCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB4134828E37F5B00B613F5 /* AddNewCardVC.swift */; };
@@ -241,6 +245,10 @@
 		CB99105328EB4D30007DECED /* ListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListVC.xib; sourceTree = "<group>"; };
 		CB99105628ECA0DE007DECED /* ListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
 		CB99105728ECA0DE007DECED /* ListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewCell.xib; sourceTree = "<group>"; };
+		CB99105B28ED6D70007DECED /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		CB99105C28ED6D70007DECED /* MapVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapVC.xib; sourceTree = "<group>"; };
+		CB99105F28EDA41F007DECED /* MapCalloutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCalloutView.swift; sourceTree = "<group>"; };
+		CB99106E28EDBC0A007DECED /* MapCalloutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapCalloutView.xib; sourceTree = "<group>"; };
 		CBA4CB8C28DC4F89005E289F /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
 		CBA4CB8D28DC4F89005E289F /* AccountVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountVC.xib; sourceTree = "<group>"; };
 		CBB4134828E37F5B00B613F5 /* AddNewCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCardVC.swift; sourceTree = "<group>"; };
@@ -340,6 +348,7 @@
 				CB3978EA28E4C03A00DA6246 /* RateApp */,
 				CB99104B28EAC690007DECED /* PhonePayment */,
 				CB99105128EB4D01007DECED /* ListView */,
+				CB99105A28ED6D43007DECED /* Maps */,
 				CB0B50FF28B6B9F5008C9983 /* app */,
 			);
 			path = "Finance-app";
@@ -671,6 +680,18 @@
 			path = ListView;
 			sourceTree = "<group>";
 		};
+		CB99105A28ED6D43007DECED /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				CB99105B28ED6D70007DECED /* MapVC.swift */,
+				CB99105C28ED6D70007DECED /* MapVC.xib */,
+				CB99105F28EDA41F007DECED /* MapCalloutView.swift */,
+				CB99106E28EDBC0A007DECED /* MapCalloutView.xib */,
+			);
+			name = Maps;
+			path = ListView;
+			sourceTree = "<group>";
+		};
 		CBA4CB8B28DC4E6F005E289F /* Accounts */ = {
 			isa = PBXGroup;
 			children = (
@@ -850,6 +871,7 @@
 				CBDF337C28D34806002BF05B /* CardVCViewController.xib in Resources */,
 				CB2C138B28D6010C00E083AE /* TransactionHistoryVC.xib in Resources */,
 				CB99104528E9ED4E007DECED /* SendMoneyCell.xib in Resources */,
+				CB99105E28ED6D70007DECED /* MapVC.xib in Resources */,
 				CB2E6FD028CE1FC700CD3DBF /* OnBoardingVC.xib in Resources */,
 				CBD6E2D028D3B938008B2540 /* CardDetailsCollectionViewCell.xib in Resources */,
 				CB1ECA0E28BF4EED00AE68D4 /* signup1_facebook@3x.png in Resources */,
@@ -861,6 +883,7 @@
 				CB0B50F828B6B8D5008C9983 /* LaunchScreen.storyboard in Resources */,
 				CB19DBF528E0900300392E73 /* CoinsMarketVC.xib in Resources */,
 				CB1ECA1528BF9B6200AE68D4 /* PhoneVC.xib in Resources */,
+				CB99106F28EDBC0A007DECED /* MapCalloutView.xib in Resources */,
 				CB3056C928DA4FFE00C2697D /* ExchangeVC.xib in Resources */,
 				CB99105528EB4D30007DECED /* ListVC.xib in Resources */,
 				CB19DBF028DF927100392E73 /* CoinRateTableViewCell.xib in Resources */,
@@ -978,7 +1001,9 @@
 				CB1ECA0928BE7F0A00AE68D4 /* SignUpVC.swift in Sources */,
 				CB2E6FD328CE36DA00CD3DBF /* OnBoardingCell.swift in Sources */,
 				CB0B50F028B6B8D3008C9983 /* ViewController.swift in Sources */,
+				CB99106028EDA41F007DECED /* MapCalloutView.swift in Sources */,
 				CB281B6D28D0F0C50074E2C3 /* MonthlyreportVC.swift in Sources */,
+				CB99105D28ED6D70007DECED /* MapVC.swift in Sources */,
 				CB19DBEB28DF925A00392E73 /* CoinRateCollectionViewCell.swift in Sources */,
 				CBF4354328D8AFF300993A17 /* SettingsVC.swift in Sources */,
 				CB37F94328C1D6EB00BE003A /* LocationVC.swift in Sources */,

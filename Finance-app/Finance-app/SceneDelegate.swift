@@ -11,7 +11,7 @@ import IQKeyboardManagerSwift
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-    var baseView: ListVC!
+    var baseView: MapVC!
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
 //        window = UIWindow(frame: UIScreen.main.bounds)
 //
-        baseView = ListVC(nibName: "ListVC", bundle: nil)
+        baseView = MapVC(nibName: "MapVC", bundle: nil)
         let navController = NavigationController(rootViewController: baseView)
         window?.rootViewController = navController
         window?.makeKeyAndVisible()
