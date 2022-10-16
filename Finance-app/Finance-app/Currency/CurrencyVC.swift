@@ -1317,6 +1317,7 @@ class CurrencyVC: UIViewController {
         
         print(#function)
         dismiss(animated: true)
+        
     }
     
     @IBAction func actionDone(_ sender: Any) {
