@@ -73,17 +73,17 @@ class MapVC: UIViewController {
         stores.removeAll()
 
         var dict1: [String: String] = [:]
-        dict1["name"] = "M&M'S World"
+        dict1["name"] = "Mashawi Mashawi"
         dict1["distance"] = "15.3 km"
-        dict1["address"] = "1600 Broadway, New York"
+        dict1["address"] = "in Al Karama, UAE"
         dict1["status"] = "Open Now"
         dict1["time"] = "9:00 AM - 6:00 PM"
         stores.append(dict1)
 
         var dict2: [String: String] = [:]
-        dict2["name"] = "American Girl Place"
-        dict2["distance"] = "12.4 km"
-        dict2["address"] = "75 Rockefeller Plaza, New York"
+        dict2["name"] = "Pizza Pan"
+        dict2["distance"] = "1.4 km"
+        dict2["address"] = "in Al Karama, UAE"
         dict2["status"] = "Closed"
         dict2["time"] = "9:00 AM - 6:00 PM"
         stores.append(dict2)
@@ -91,7 +91,7 @@ class MapVC: UIViewController {
         var dict3: [String: String] = [:]
         dict3["name"] = "NBA Store NYC 5th Ave"
         dict3["distance"] = "9 km"
-        dict3["address"] = "545 5th Ave, New York"
+        dict3["address"] = "Downtown Dubai"
         dict3["status"] = "Closed"
         dict3["time"] = "9:00 AM - 6:00 PM"
         stores.append(dict3)
