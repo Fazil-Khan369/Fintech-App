@@ -49,3 +49,4 @@ class NavigationController: UINavigationController {
         self.navigationBar.scrollEdgeAppearance?.backgroundColor = color
     }
 }
+
