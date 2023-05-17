@@ -133,3 +133,8 @@ extension RateAppVC: UITextViewDelegate {
         placeHolderLabel.isHidden = !textView.text.isEmpty
     }
 }
+
+
+// MARK: -
+
+// This for only testing purpose ... github
